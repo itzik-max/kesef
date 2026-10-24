@@ -1,0 +1,1534 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#000000">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="פיננסי - עוז">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAClklEQVR4AWRQTUwTURicvi39A2vTIqZVIjFRK2LiT2KMBzXxqCcPcDMxHkhELsjFkHDAi3f1IkcTJJyMF4wYEpCgCfFEQDBCKxYtUltbumz35+36fZtuk8ZNZufbeTPz3j4BesLhcG9bW9tyNBq1YrGYE4/HnUQi0QTWeI097CX0UhSCw36/f1JRlB5iIgX0ctGVjOBid8ydWaN1EBRCj8/nm+SsoIVRIYSPGMQN8+D1DkwMn8LESDeeDp1o6OypgzOcFem60FTwflWFlTGx91XDu/mSW8A+byOeCWlBR1EIYJDQKKlIgTdrBiaWDGzsolHgeZgpo3CBG6YPlyNBPx7dSuHt6FEM3GvB0OABTI+fxrORNJKHQq7H8woh0FQQCih42X8Gd67EEWxxUC4rKBQCdHFB3LyaxOvnl5CiEr59D8IbmPtvdOJcZxiWrcMybcwthLAw64ehkc32IRkPYmzgZPMpOOjh9vl2GLV9WJaJ9Q2B1oiNYykV39ckpG5AagaunY0iEfXDcRwXwhtaWwQiNRO1ag2OARw56CCXA/L5IDoOVGAWqzBLKmRJQ1d70A1zVvCLoVsSu9v7VGCD/gB/igIXjptIBFRsrgrov/ZQy1Wg5arQNPP/gpopsfitgr2SA131IUaXuLQeQDbfisMhFbIs6QQS21s6Vmkj3pTBJ5C2bbuNL5Z3kMnpKOzYkFXgckpDOl4B9k1Uiw6Kv22MTf+EYdmoZ6SgYY2biLFVqeHhfBavPhewsFJF5oeK7FYZi8sapj7+xd2pDOY2y16Y+QsXjFHYkVKygB1Vx/hKHsMfsngwm8H9mQwGZjbx5FMO6wXV9dS9DuUeC03Tpkjoo48VYvd3aAbNTWCNQTp72NvH2X8AAAD//3QfZWcAAAAGSURBVAMATtGNmt8VhzsAAAAASUVORK5CYII=">
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,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">
+<link rel="icon" type="image/png" sizes="48x48" href="data:image/png;base64,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">
+<title>פיננסי - עוז</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F4F5FA; --surface: #FFFFFF; --surface-2: #F7F8FB; --line: #E7E9F0; --line-strong: #D3D7E2;
+    --ink: #1B1F33; --ink-2: #3D4357; --muted: #737A90; --focus: #6366F1; --accent: #5B5BD6;
+    --shadow: 0 1px 2px rgba(27, 31, 51, .04), 0 4px 14px rgba(27, 31, 51, .05);
+    --pos: #0E8A5F; --neg: #DC2F45; --warn: #C2700A;
+    /* צבעי סדרות, נבדקו לעיוורי צבעים */
+    --inc: #0B7D55; --exp: #F2827A;
+    --p0: #2A78D6; --p0-2: #86B6EF; --p1: #EB6834; --p1-2: #F4A582;
+    --c1: #2A78D6; --c2: #EB6834; --c3: #1BAF7A; --c4: #EDA100;
+    --c5: #E87BA4; --c6: #008300; --c7: #4A3AA7; --c8: #E34948; --c-other: #C4C3BE;
+    /* גוונים רכים לכל תחום */
+    --t-blue: #EAF2FF; --t-green: #E7F8F0; --t-rose: #FFEEF0; --t-violet: #F1EEFF; --t-amber: #FFF5E0; --t-teal: #E5F7F6;
+    --good-ink: #067647; --good-bg: #DCFAE6; --warn-ink: #B54708; --warn-bg: #FEF0C7; --bad-ink: #B42318; --bad-bg: #FEE4E2;
+    --hero: linear-gradient(135deg, #EEF0FF 0%, #E9F7F4 100%);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0F1016; --surface: #191B24; --surface-2: #21232E; --line: #2C2F3C; --line-strong: #3F4352;
+      --ink: #F2F3F8; --ink-2: #CDD0DC; --muted: #9AA0B4; --accent: #8B8BF0; --shadow: none;
+      --pos: #34D399; --neg: #F87171; --warn: #FBBF24;
+      --inc: #26B884; --exp: #D9534B;
+      --p0: #3987E5; --p1: #D95926;
+      --c1: #3987E5; --c2: #D95926; --c3: #199E70; --c4: #C98500;
+      --c5: #D55181; --c6: #008300; --c7: #9085E9; --c8: #E66767; --c-other: #5E5D59;
+      --t-blue: #16233A; --t-green: #12291F; --t-rose: #2C1820; --t-violet: #1F1B36; --t-amber: #2B2312; --t-teal: #102A29;
+      --good-ink: #6CE9A6; --good-bg: #0E2E1F; --warn-ink: #FEC84B; --warn-bg: #33250B; --bad-ink: #FDA29B; --bad-bg: #3B1512;
+      --hero: linear-gradient(135deg, #1D1E33 0%, #142826 100%);
+    }
+  }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: "Rubik", "Segoe UI", Arial, sans-serif; font-size: 15px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+  [hidden] { display: none !important; }
+  .num { font-variant-numeric: tabular-nums; }
+  .page { max-width: 1200px; margin: 0 auto; padding: 22px 16px 48px; }
+  button, select, input { font: inherit; color: inherit; }
+  button:focus-visible, select:focus-visible, input:focus-visible, summary:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+  .stack { display: grid; gap: 18px; grid-template-columns: minmax(0, 1fr); }
+  .stack > * { min-width: 0; }
+  .pos { color: var(--pos); } .neg { color: var(--neg); } .warn { color: var(--warn); }
+  .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex: none; }
+
+  /* כותרת וניווט */
+  .top { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 18px; flex-wrap: wrap; }
+  .brand { display: flex; align-items: center; gap: 10px; }
+  .brand-emo { font-size: 26px; }
+  h1 { font-size: 23px; font-weight: 800; margin: 0; }
+  .updated { margin: 0; color: var(--muted); font-size: 13px; }
+  .stale { color: var(--warn-ink); font-weight: 500; }
+  .top-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .pills { display: inline-flex; gap: 3px; padding: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; box-shadow: var(--shadow); max-width: 100%; overflow-x: auto; scrollbar-width: none; }
+  .pills button { border: 0; background: transparent; color: var(--ink-2); font-size: 14.5px; font-weight: 500; padding: 7px 16px; border-radius: 999px; cursor: pointer; white-space: nowrap; }
+  .pills button[aria-selected="true"], .pills button[aria-checked="true"] { background: var(--ink); color: var(--surface); }
+  .pills.small button { font-size: 13.5px; padding: 5px 13px; }
+  .btn-soft { display: inline-flex; align-items: center; gap: 7px; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 8px 15px; font-size: 14px; font-weight: 500; cursor: pointer; box-shadow: var(--shadow); }
+  .btn-soft:hover { border-color: var(--accent); }
+  .btn-soft[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+  .link { border: 0; background: none; color: var(--accent); font-weight: 600; cursor: pointer; padding: 0; font-size: 14px; }
+
+  /* כרטיסים */
+  .card { min-width: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 22px; padding: 20px; box-shadow: var(--shadow); }
+  .card-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
+  .card-title { font-size: 17px; font-weight: 700; margin: 0; display: inline-flex; align-items: center; gap: 8px; }
+  .card-meta { color: var(--muted); font-size: 13px; }
+  .fine { color: var(--muted); font-size: 12.5px; margin: 12px 0 0; }
+  .fine:empty { display: none; }
+  .empty { color: var(--muted); font-size: 14px; padding: 12px 0; text-align: center; }
+  .two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; align-items: start; }
+  .chip { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 600; white-space: nowrap; color: var(--ink-2); background: var(--surface-2); border-radius: 999px; padding: 2px 10px; }
+  .chip.good { color: var(--good-ink); background: var(--good-bg); }
+  .chip.warn { color: var(--warn-ink); background: var(--warn-bg); }
+  .chip.bad { color: var(--bad-ink); background: var(--bad-bg); }
+  .logo { display: inline-grid; place-items: center; min-width: 52px; height: 28px; padding: 0 9px; border-radius: 9px; font-weight: 800; font-size: 13px; white-space: nowrap; flex: none; }
+  .logo.big { min-width: 68px; height: 36px; font-size: 15px; border-radius: 11px; }
+  .logo.small { min-width: 40px; height: 22px; font-size: 11px; border-radius: 7px; padding: 0 6px; }
+
+  /* פתיח */
+  .hero { background: var(--hero); border-radius: 26px; padding: 22px 24px; display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; border: 1px solid var(--line); }
+  .hello { margin: 0; color: var(--ink-2); font-size: 15px; font-weight: 500; }
+  .hero h2 { margin: 2px 0; font-size: 27px; font-weight: 800; }
+  .hero-sub { margin: 0; color: var(--ink-2); font-size: 14.5px; }
+  .hero-actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .select-pill { display: inline-flex; align-items: center; gap: 8px; padding: 8px 15px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); box-shadow: var(--shadow); font-size: 14px; font-weight: 600; }
+  .select-pill select { border: 0; background: transparent; font-weight: 600; cursor: pointer; max-width: 230px; }
+
+  /* מבט אחד: שישה אריחים */
+  .glance { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  .g-tile { text-align: start; border: 1px solid var(--line); border-radius: 22px; padding: 18px; cursor: pointer; display: grid; gap: 4px; min-width: 0; box-shadow: var(--shadow); transition: transform .15s, box-shadow .15s; }
+  .g-tile:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(27, 31, 51, .08); }
+  .g-tile[aria-expanded="true"] { outline: 2px solid var(--accent); outline-offset: 0; }
+  .g-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  .g-emo { width: 42px; height: 42px; border-radius: 14px; background: var(--surface); display: grid; place-items: center; font-size: 21px; box-shadow: var(--shadow); }
+  .g-title { font-weight: 700; font-size: 16px; color: var(--ink-2); }
+  .g-value { font-size: 29px; font-weight: 800; line-height: 1.2; margin-top: 8px; }
+  .g-sub { font-size: 13px; color: var(--ink-2); }
+  .g-viz { height: 8px; border-radius: 999px; background: rgba(127, 127, 127, .16); position: relative; margin: 10px 0 4px; overflow: visible; }
+  .g-viz .fill { position: absolute; inset-block: 0; inset-inline-start: 0; border-radius: 999px; }
+  .g-viz .mark { position: absolute; top: -4px; bottom: -4px; width: 2px; background: var(--ink); transform: translateX(50%); border-radius: 2px; }
+  .g-viz.split { display: flex; gap: 2px; background: none; overflow: hidden; }
+  .g-viz.split span { height: 100%; border-radius: 999px; }
+  .g-more { font-size: 13px; color: var(--accent); font-weight: 600; }
+  .t-blue { background: var(--t-blue); } .t-green { background: var(--t-green); } .t-rose { background: var(--t-rose); }
+  .t-violet { background: var(--t-violet); } .t-amber { background: var(--t-amber); } .t-teal { background: var(--t-teal); }
+  .detail { animation: open .2s ease-out; }
+  @keyframes open { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { .detail { animation: none; } .g-tile { transition: none; } }
+
+  .insight { display: flex; gap: 14px; align-items: flex-start; }
+  .insight .big-emo { font-size: 26px; line-height: 1; }
+  .insight p { margin: 0 0 6px; font-size: 14.5px; }
+  .insight p:last-child { margin-bottom: 0; }
+
+  /* פריטים שנפתחים בלחיצה */
+  details.more { padding: 0; }
+  details.more > summary { list-style: none; cursor: pointer; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
+  details.more > summary::-webkit-details-marker { display: none; }
+  details.more > summary::after { content: "פתיחה ›"; font-size: 13px; color: var(--accent); font-weight: 600; }
+  details.more[open] > summary::after { content: "סגירה ⌃"; }
+  details.more > .more-body { padding: 0 20px 20px; }
+  details.more > summary small { color: var(--muted); font-weight: 400; font-size: 13px; }
+
+  /* תוכנית מול ביצוע */
+  .plan-rows { display: grid; gap: 15px; }
+  .plan-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; font-size: 14px; }
+  .plan-head b { font-size: 16px; }
+  .plan-bar { position: relative; height: 10px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 999px; margin: 7px 0 4px; }
+  .plan-bar .fill { position: absolute; inset-block: 0; inset-inline-start: 0; border-radius: 999px; }
+  .plan-bar .mark { position: absolute; top: -5px; bottom: -5px; width: 2px; background: var(--ink); border-radius: 2px; transform: translateX(50%); }
+  .plan-foot { font-size: 12.5px; color: var(--muted); }
+
+  /* גרפים */
+  .legend { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 16px; font-size: 12.5px; color: var(--ink-2); margin: -4px 0 10px; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .key-line { width: 18px; height: 0; border-top: 2px solid; display: inline-block; }
+  .key-line.dashed { border-top: 1.5px dashed var(--muted); }
+  .key-line.dotted { border-top: 1.5px dotted var(--muted); }
+  .key-line.budget { border-top: 1.5px dashed var(--ink); }
+  .chart { width: 100%; }
+  .chart svg { display: block; overflow: visible; font-family: inherit; }
+  .chart .grid { stroke: var(--line); stroke-width: 1; }
+  .chart .zero { stroke: var(--line-strong); stroke-width: 1.5; }
+  .chart .axis { fill: var(--muted); font-size: 11.5px; }
+  .chart .axis.is-sel { fill: var(--ink); font-weight: 700; }
+  .chart .val { fill: var(--ink-2); font-size: 11px; font-weight: 600; }
+  .chart .hit { fill: transparent; }
+  .chart .col-hit.clickable { cursor: pointer; }
+  .chart .sel-band { fill: var(--surface-2); stroke: var(--line); }
+  .chart .budget-tick { stroke: var(--ink); stroke-width: 1.5; stroke-dasharray: 4 3; }
+  .chart .budget-line { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 2 4; }
+  .chart .pace-line { stroke: var(--muted); stroke-width: 1.5; stroke-dasharray: 6 5; }
+  .chart .today-line { stroke: var(--line-strong); stroke-width: 1; stroke-dasharray: 3 3; }
+  .chart .actual-line { fill: none; stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
+  .chart .end-dot { stroke: var(--surface); stroke-width: 2; }
+  .chart .end-label { fill: var(--ink); font-size: 12.5px; font-weight: 700; }
+  .chart .gap-line { stroke-width: 2; stroke-dasharray: 2 3; }
+  .chart .gap-label { font-size: 12px; font-weight: 700; }
+  .chart .crosshair { stroke: var(--muted); stroke-width: 1; }
+  .totals-row { display: flex; justify-content: center; gap: 8px 20px; flex-wrap: wrap; margin-top: 12px; font-size: 13px; color: var(--ink-2); }
+  .totals-row span { display: inline-flex; align-items: center; gap: 6px; }
+  .totals-row b { font-weight: 700; color: var(--ink); }
+
+  .donut-row { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 20px; align-items: center; }
+  .donut svg { display: block; }
+  .donut .seg { transition: opacity .15s; }
+  .donut.dim .seg { opacity: .35; }
+  .donut.dim .seg.on { opacity: 1; }
+  .donut-label { fill: var(--muted); font-size: 12px; }
+  .donut-value { fill: var(--ink); font-size: 17px; font-weight: 800; }
+  .cat-list { list-style: none; margin: 0; padding: 0; width: 100%; max-height: 320px; overflow-y: auto; }
+  .cat-list li { display: grid; grid-template-columns: auto 1fr auto auto; align-items: center; gap: 10px; padding: 6px 8px; border-radius: 10px; font-size: 13.5px; }
+  .cat-list li:hover { background: var(--surface-2); }
+  .cat-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .cat-pct { color: var(--muted); font-size: 12px; }
+  .cat-amt { font-weight: 700; white-space: nowrap; }
+  .cat-list .sub { grid-column: 2 / -1; font-size: 11.5px; color: var(--muted); margin-top: -4px; }
+  .hbars { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+  .hbar { display: grid; grid-template-columns: minmax(0, 9rem) 1fr 6rem; gap: 10px; align-items: center; padding: 4px; font-size: 13.5px; }
+  .hbar-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--ink-2); }
+  .hbar-track { height: 12px; border-inline-start: 1px solid var(--line); }
+  .hbar-fill { display: block; height: 100%; min-width: 3px; border-start-end-radius: 4px; border-end-end-radius: 4px; }
+  .hbar-amt { text-align: end; font-weight: 700; white-space: nowrap; }
+
+  /* שורות כלליות */
+  .row-top { display: flex; align-items: center; gap: 12px; }
+  .row-text { flex: 1; min-width: 0; }
+  .row-name { font-weight: 700; font-size: 15px; display: block; }
+  .row-sub { color: var(--muted); font-size: 12.5px; display: block; }
+  .row-amount { font-weight: 700; font-size: 16px; white-space: nowrap; text-align: end; }
+  .row-amount small { display: block; font-weight: 400; font-size: 11.5px; color: var(--muted); }
+  .loan { padding: 14px 0; border-top: 1px solid var(--line); }
+  .loan:first-child { border-top: 0; padding-top: 0; }
+  .progress { height: 7px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--line); margin: 12px 0 6px; overflow: hidden; }
+  .progress span { display: block; height: 100%; background: var(--c1); border-start-end-radius: 999px; border-end-end-radius: 999px; }
+  .row-foot { display: flex; justify-content: space-between; gap: 8px; color: var(--muted); font-size: 12px; flex-wrap: wrap; }
+  .minis { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-bottom: 16px; }
+  .mini { background: var(--surface-2); border-radius: 14px; padding: 12px 14px; }
+  .mini span { display: block; color: var(--muted); font-size: 12.5px; }
+  .mini b { font-size: 19px; font-weight: 800; }
+  .asset-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+  .asset { border: 1px solid var(--line); border-radius: 18px; padding: 15px; display: grid; gap: 6px; min-width: 0; }
+  .asset .a-emo { font-size: 22px; }
+  .asset .a-value { font-size: 21px; font-weight: 800; }
+  .asset .a-missing { color: var(--warn-ink); font-weight: 600; font-size: 14px; }
+  .asset .a-note { color: var(--muted); font-size: 12px; }
+  .acc-lines { list-style: none; margin: 0; padding: 0; }
+  .acc-lines li { display: flex; justify-content: space-between; gap: 12px; padding: 9px 0; border-top: 1px solid var(--line); font-size: 14px; }
+  .acc-lines li:first-child { border-top: 0; }
+  .acc-lines small { color: var(--muted); margin-inline-start: 6px; font-size: 12px; }
+  .acc-lines .group { color: var(--muted); font-size: 12.5px; font-weight: 600; padding-top: 14px; }
+  .txs { list-style: none; margin: 0; padding: 0; font-size: 13px; }
+  .txs li { display: grid; grid-template-columns: 3.4rem 1fr auto; gap: 10px; padding: 6px 0; border-top: 1px solid var(--line); }
+  .txs li:first-child { border-top: 0; }
+  .txs .d { color: var(--muted); }
+  .txs .t { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .split { display: flex; height: 12px; border-radius: 999px; overflow: hidden; margin: 14px 0 10px; gap: 2px; }
+  .split span { display: block; height: 100%; }
+  .split-legend { display: flex; justify-content: space-between; gap: 12px; font-size: 13px; color: var(--ink-2); flex-wrap: wrap; }
+  .split-legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .cta { background: var(--surface-2); border-radius: 14px; padding: 12px 14px; font-size: 13.5px; margin-top: 12px; }
+
+  /* אשראי: חודשי חיוב */
+  .month-tabs { display: flex; gap: 10px; overflow-x: auto; scrollbar-width: thin; padding: 4px 2px 8px; }
+  .mtab { flex: none; min-width: 96px; border: 1px solid var(--line); background: var(--surface); border-radius: 18px; padding: 10px 14px; cursor: pointer; display: grid; gap: 1px; text-align: center; box-shadow: var(--shadow); }
+  .mtab:hover { border-color: var(--accent); }
+  .mtab[aria-selected="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+  .mtab .m-name { font-weight: 700; font-size: 15px; }
+  .mtab .m-year { font-size: 12px; color: var(--muted); }
+  .mtab[aria-selected="true"] .m-year { color: inherit; opacity: .8; }
+  .dates-box { display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; }
+  .dates-box label { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; color: var(--ink-2); }
+  .dates-box input { border: 1px solid var(--line); background: var(--surface); border-radius: 12px; padding: 7px 10px; }
+
+  /* אשראי: לוח המספרים */
+  .stats { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+  .stat { border-radius: 18px; padding: 14px; display: grid; gap: 2px; min-width: 0; }
+  .stat .s-label { font-size: 13px; color: var(--ink-2); display: flex; align-items: center; gap: 6px; }
+  .stat .s-label span { font-size: 17px; }
+  .stat b { font-size: 26px; font-weight: 800; line-height: 1.25; }
+  .stat small { font-size: 12px; color: var(--muted); }
+  .bullets { display: grid; gap: 30px; margin: 24px 0 8px; }
+  .bullet .b-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 26px; }
+  .bullet .b-name { font-weight: 700; font-size: 15px; display: inline-flex; align-items: center; gap: 8px; }
+  .bullet .b-nums { font-size: 13.5px; color: var(--ink-2); }
+  .bullet .b-nums b { font-size: 16px; color: var(--ink); }
+  .b-track { position: relative; height: 18px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--line); }
+  .b-fill { position: absolute; inset-block: 0; inset-inline-start: 0; border-radius: 999px; }
+  .b-mark { position: absolute; top: -8px; bottom: -8px; width: 3px; border-radius: 3px; transform: translateX(50%); }
+  .b-mark em { position: absolute; bottom: calc(100% + 2px); inset-inline-start: 50%; transform: translateX(50%); white-space: nowrap; font-style: normal; font-size: 11.5px; font-weight: 600; color: var(--ink-2); }
+  .b-mark.near-left em { left: 0; right: auto; transform: none; }
+  .b-mark.near-right em { right: 0; left: auto; transform: none; }
+  .b-mark.should { background: var(--ink); }
+  .b-mark.budget { background: var(--muted); width: 2px; }
+  .b-mark.budget em { color: var(--muted); bottom: auto; top: calc(100% + 2px); }
+  .verdict { display: grid; gap: 8px; }
+  .verdict p { margin: 0; display: flex; gap: 10px; align-items: flex-start; font-size: 14.5px; }
+
+  .card-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+  .cc { background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 15px; box-shadow: var(--shadow); display: grid; gap: 9px; min-width: 0; text-align: start; cursor: pointer; transition: transform .15s; }
+  .cc:hover { transform: translateY(-2px); }
+  .cc[aria-expanded="true"] { outline: 2px solid var(--accent); }
+  .cc .g-more { justify-self: start; }
+  .tag { display: inline-block; font-size: 11px; font-weight: 600; padding: 1px 7px; border-radius: 999px; background: var(--surface-2); color: var(--muted); margin-inline-start: 6px; }
+  .excluded-note { background: var(--t-teal); border-radius: 14px; padding: 10px 14px; font-size: 13.5px; }
+  .cc-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .cc-pan { font-size: 15px; font-weight: 700; letter-spacing: .06em; direction: ltr; }
+  .cc-product { color: var(--muted); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .owner { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; }
+  .cc-amount { font-size: 21px; font-weight: 800; }
+  .cc-foot { display: flex; justify-content: space-between; gap: 8px; color: var(--muted); font-size: 12px; flex-wrap: wrap; }
+  .advice h3 { font-size: 14px; margin: 14px 0 8px; color: var(--ink-2); }
+  .advice h3:first-of-type { margin-top: 0; }
+  .advice ul.tips { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+  .advice ul.tips li { background: var(--surface-2); border-radius: 12px; padding: 10px 12px; font-size: 13.5px; }
+
+  .table-wrap { overflow-x: auto; margin-top: 14px; }
+  .htable { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  .htable th { text-align: start; font-weight: 500; color: var(--muted); font-size: 12px; padding: 6px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  .htable td { padding: 9px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  .htable .num { text-align: end; }
+  .htable tbody tr.clickable { cursor: pointer; }
+  .htable tbody tr.clickable:hover td { background: var(--surface-2); }
+  .htable tr.is-sel td { font-weight: 700; background: var(--surface-2); }
+  .bank-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; align-items: start; }
+  .bank-head { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+  .bank-head h2 { margin: 0; font-size: 17px; }
+
+  .tip { position: fixed; z-index: 20; min-width: 190px; max-width: 300px; pointer-events: none; background: var(--ink); color: var(--surface); border-radius: 12px; padding: 11px 13px; font-size: 13px; box-shadow: 0 10px 30px rgba(0, 0, 0, .2); }
+  .tip-meta { opacity: .7; margin-inline-start: 8px; font-size: 12px; }
+  .tip ul { list-style: none; margin: 8px 0 0; padding: 0; }
+  .tip li { display: flex; justify-content: space-between; gap: 16px; padding: 2px 0; }
+  .tip li span:first-child { display: inline-flex; align-items: center; gap: 6px; }
+  .foot { margin-top: 28px; color: var(--muted); font-size: 12.5px; text-align: center; }
+
+  /* מסך הנעילה של האתר: הסיסמה מפענחת את הנתונים במכשיר עצמו */
+  .lock { min-height: 100vh; display: grid; place-items: center; padding: 24px 16px; background: var(--hero); }
+  .lock-box { width: 100%; max-width: 380px; background: var(--surface); border: 1px solid var(--line); border-radius: 26px; padding: 28px 24px; box-shadow: var(--shadow); display: grid; gap: 14px; text-align: center; }
+  .lock-emo { font-size: 44px; }
+  .lock h1 { font-size: 24px; }
+  .lock p { margin: 0; color: var(--muted); font-size: 14px; }
+  .lock input[type=password] { width: 100%; border: 1px solid var(--line-strong); background: var(--surface-2); border-radius: 14px; padding: 13px 14px; font-size: 16px; text-align: center; }
+  .lock button.open { border: 0; border-radius: 14px; padding: 13px; font-size: 16px; font-weight: 700; background: var(--accent); color: #fff; cursor: pointer; }
+  .lock button.open:disabled { opacity: .6; cursor: wait; }
+  .lock .err { color: var(--neg); font-weight: 600; min-height: 1.4em; }
+
+  @media (max-width: 1000px) {
+    .glance, .asset-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .card-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .stats { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+  @media (max-width: 760px) {
+    .two, .bank-grid { grid-template-columns: 1fr; }
+    .donut-row { grid-template-columns: 1fr; justify-items: center; }
+  }
+  @media (max-width: 560px) {
+    .page { padding: 16px 14px 40px; }
+    .card { padding: 16px; border-radius: 18px; }
+    .glance, .asset-grid, .card-strip, .minis { grid-template-columns: 1fr; }
+    .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .hero h2 { font-size: 23px; }
+    .g-value { font-size: 25px; }
+    .stat b { font-size: 22px; }
+    .hbar { grid-template-columns: minmax(0, 6.5rem) 1fr 5rem; }
+  }
+</style>
+</head>
+<body>
+<div class="lock" id="lock" hidden>
+  <form class="lock-box" id="lock-form" autocomplete="on">
+    <div class="lock-emo" aria-hidden="true">🏡</div>
+    <h1>פיננסי - עוז</h1>
+    <p>הנתונים מוצפנים, והסיסמה נדרשת בכל כניסה.</p>
+    <input type="text" name="username" value="family" autocomplete="username" hidden>
+    <input type="password" id="lock-pass" name="password" autocomplete="current-password" placeholder="סיסמה" required>
+    <button class="open" type="submit" id="lock-open">🔓 פתיחה</button>
+    <div class="err" id="lock-err" role="alert"></div>
+  </form>
+</div>
+
+<div class="page" id="page" hidden>
+  <header class="top">
+    <div class="brand"><span class="brand-emo" aria-hidden="true">🏡</span><div><h1>פיננסי - עוז</h1><p class="updated" id="updated"></p></div></div>
+    <div class="top-actions">
+      <nav class="pills" role="tablist" aria-label="תצוגה" id="tabs">
+        <button role="tab" type="button" data-tab="summary">✨ סיכום</button>
+        <button role="tab" type="button" data-tab="credit">💳 כרטיסי אשראי</button>
+        <button role="tab" type="button" data-tab="banks">🏦 בנקים</button>
+      </nav>
+      <button class="btn-soft" id="demo-toggle" type="button" aria-pressed="false"><span aria-hidden="true">🙈</span><span class="label">מצב הדגמה</span></button>
+      <button class="btn-soft" id="lock-now" type="button" hidden><span aria-hidden="true">🔒</span>נעילה</button>
+    </div>
+  </header>
+
+  <!-- ===================== סיכום ===================== -->
+  <div id="view-summary" role="tabpanel" class="stack">
+    <section class="hero">
+      <div>
+        <p class="hello" id="hello"></p>
+        <h2 id="sum-title"></h2>
+        <p class="hero-sub" id="sum-sub"></p>
+      </div>
+      <label class="select-pill"><span aria-hidden="true">📅</span><select id="sum-month" aria-label="חודש"></select></label>
+    </section>
+    <div class="glance" id="glance"></div>
+    <section class="card detail" id="glance-detail" hidden></section>
+    <section class="card insight" id="sum-insight"></section>
+    <section class="card">
+      <div class="card-head"><h2 class="card-title">📊 כמה נשאר בסוף כל חודש</h2><span class="card-meta">לחיצה על חודש פותחת אותו למעלה</span></div>
+      <div class="chart" id="left-chart" dir="ltr"></div>
+      <div class="totals-row" id="flow-totals"></div>
+    </section>
+    <details class="card more" data-draw="flow">
+      <summary><span>💸 הכנסות מול הוצאות, 12 חודשים</span></summary>
+      <div class="more-body">
+        <div class="legend"><span><i class="dot" style="background:var(--inc)"></i>הכנסות</span><span><i class="dot" style="background:var(--exp)"></i>הוצאות</span><span><i class="key-line budget"></i>הוצאות לפי התוכנית</span></div>
+        <div class="chart" id="flow-chart" dir="ltr"></div>
+      </div>
+    </details>
+  </div>
+
+  <!-- ===================== כרטיסי אשראי ===================== -->
+  <div id="view-credit" role="tabpanel" class="stack" hidden>
+    <section class="hero">
+      <div>
+        <p class="hello">💳 כרטיסי אשראי מול היעד</p>
+        <h2 id="cr-title"></h2>
+        <p class="hero-sub" id="cr-sub"></p>
+      </div>
+      <div class="hero-actions">
+        <div class="pills small" role="radiogroup" aria-label="של מי" id="who"></div>
+        <button class="btn-soft" id="dates-toggle" type="button" aria-pressed="false">📅 בחירת תאריכים</button>
+      </div>
+    </section>
+    <section class="card dates-box" id="range-dates" hidden>
+      <label>מתאריך <input type="date" id="date-from"></label>
+      <label>עד <input type="date" id="date-to"></label>
+      <button class="link" id="back-to-cycle" type="button">↩ חזרה לחודש החיוב</button>
+    </section>
+    <div class="month-tabs" role="tablist" aria-label="חודשי חיוב" id="month-tabs"></div>
+
+    <section class="card" aria-labelledby="board-title">
+      <div class="card-head"><h2 class="card-title" id="board-title">🎯 איפה אנחנו עומדים</h2><span class="card-meta" id="board-meta"></span></div>
+      <div class="stats" id="stats"></div>
+      <div class="bullets" id="bullets"></div>
+      <div class="legend" id="progress-legend" style="margin-top:18px"></div>
+      <div class="chart" id="progress-chart" dir="ltr"></div>
+    </section>
+
+    <section class="card verdict" id="verdict"></section>
+    <div class="card-strip" id="card-strip"></div>
+    <section class="card detail" id="card-detail" hidden></section>
+    <div class="two" id="advice"></div>
+
+    <details class="card more" data-draw="breakdown">
+      <summary><span>🔍 לאן הלך הכסף <small>קטגוריות, כרטיסים ובתי עסק</small></span></summary>
+      <div class="more-body">
+        <div class="two">
+          <div><div class="donut-row"><div class="donut" id="credit-donut"></div><ul class="cat-list" id="credit-cats"></ul></div></div>
+          <div><h3 class="card-title" style="font-size:15px;margin-bottom:8px">🏪 בתי העסק המובילים</h3><ul class="hbars" id="merchants"></ul></div>
+        </div>
+        <div class="donut-row" style="margin-top:20px"><div class="donut" id="cards-donut"></div><ul class="cat-list" id="cards-list"></ul></div>
+      </div>
+    </details>
+    <details class="card more" data-draw="daily">
+      <summary><span>📆 הוצאה יומית <small id="daily-meta"></small></span></summary>
+      <div class="more-body"><div class="legend" id="daily-legend"></div><div class="chart" id="daily-chart" dir="ltr"></div></div>
+    </details>
+    <details class="card more" data-draw="history">
+      <summary><span>📜 כל החודשים <small>מי עמד ביעד ומי חרג</small></span></summary>
+      <div class="more-body">
+        <div class="legend" id="history-legend"></div>
+        <div class="chart" id="history-chart" dir="ltr"></div>
+        <div class="table-wrap"><table class="htable" id="history-table"></table></div>
+      </div>
+    </details>
+  </div>
+
+  <!-- ===================== בנקים ===================== -->
+  <div id="view-banks" role="tabpanel" class="stack" hidden>
+    <section class="hero">
+      <div>
+        <p class="hello">🏦 מצב הבנקים</p>
+        <h2 id="liquid-net"></h2>
+        <p class="hero-sub">מצב נזיל: הכסף בבנק פחות חיובי האשראי הקרובים</p>
+      </div>
+      <div style="min-width:260px;flex:1;max-width:480px"><div class="split" id="liquid-split"></div><div class="split-legend" id="liquid-legend"></div></div>
+    </section>
+    <div class="bank-grid" id="bank-grid"></div>
+    <section class="card">
+      <div class="card-head"><h2 class="card-title">💳 חברות כרטיסי האשראי</h2><span class="card-meta" id="issuers-meta"></span></div>
+      <div class="table-wrap" style="margin-top:0"><table class="htable" id="issuers-table"></table></div>
+    </section>
+    <section class="card">
+      <div class="card-head"><h2 class="card-title">👧👦 הילדים</h2></div>
+      <div id="kids"></div>
+    </section>
+    <details class="card more">
+      <summary><span>🔌 מצב החיבורים <small>דרך Open Finance</small></span></summary>
+      <div class="more-body"><div class="table-wrap" style="margin-top:0"><table class="htable" id="conn-table"></table></div></div>
+    </details>
+  </div>
+
+  <p class="foot">הנתונים נמשכים מהבנק ומחברות האשראי, והתוכנית מקובץ התזרים המשפחתי. הם מתעדכנים כמה פעמים ביום מהמחשב בבית.</p>
+</div>
+
+<div class="tip" id="tip" role="tooltip" hidden></div>
+
+<script id="dashboard-data" type="application/json">null</script>
+<script>
+// כל הדף נבנה מתוך הנתונים: בקובץ המקומי הם מוטמעים בדף, ובאתר הם מפוענחים אחרי הסיסמה.
+function startApp(DATA, site) {
+  document.getElementById("lock").hidden = true;
+  document.getElementById("page").hidden = false;
+  const CREDIT = DATA.credit;
+  const $ = (sel) => document.querySelector(sel);
+  const nf = new Intl.NumberFormat("he-IL", { style: "currency", currency: "ILS", maximumFractionDigits: 0 });
+
+  // סמלי הבנקים וחברות האשראי, בצבעי המותג שלהם.
+  const BRANDS = {
+    mizrahi: { text: "מזרחי טפחות", bg: "#F68B1F", fg: "#FFFFFF" },
+    hapoalim: { text: "הפועלים", bg: "#E30613", fg: "#FFFFFF" },
+    leumi: { text: "לאומי", bg: "#1E4A9A", fg: "#FFFFFF" },
+    discount: { text: "דיסקונט", bg: "#0E7A3B", fg: "#FFFFFF" },
+    beinleumi: { text: "הבינלאומי", bg: "#00487A", fg: "#FFFFFF" },
+    yahav: { text: "יהב", bg: "#0072BC", fg: "#FFFFFF" },
+    otsarHahayal: { text: "אוצר החייל", bg: "#004B87", fg: "#FFFFFF" },
+    mercantile: { text: "מרכנתיל", bg: "#00843D", fg: "#FFFFFF" },
+    cal: { text: "cal", bg: "#E3F5FC", fg: "#0089C8" },
+    max: { text: "max", bg: "#F1E7FA", fg: "#6B1E9E" },
+    americanExpress: { text: "AMEX", bg: "#006FCF", fg: "#FFFFFF" },
+    isracard: { text: "ישראכרט", bg: "#FDE8E8", fg: "#C8102E" },
+  };
+  const logo = (provider, size = "") => {
+    const b = BRANDS[provider] ?? { text: provider, bg: "var(--surface-2)", fg: "var(--ink)" };
+    return `<span class="logo ${size}" style="background:${b.bg};color:${b.fg}">${esc(b.text)}</span>`;
+  };
+
+  // צבע קבוע לכל קטגוריה, כדי שהיא תיראה אותו דבר בכל גרף ובכל תקופה.
+  const EXPENSE_SLOTS = { "סופר ומכולת": 1, "מסעדות וקפה": 2, "קניות": 3, "חינוך וחוגים": 4, "ביט ופייבוקס": 5, "פנאי וספורט": 6, "ביטוחים ושירותים לבית": 7, "משכנתא והלוואות": 8 };
+  const INCOME_SLOTS = Object.fromEntries(DATA.incomeSources.filter((s) => s.name !== "אחר").map((s, i) => [s.name, i + 1]));
+  const RENT_SOURCE = DATA.incomeSources.find((s) => s.plan === 'שכ"ד')?.name;
+  const PERSON = ["var(--p0)", "var(--p1)"];
+  const PERSON_2 = ["var(--p0-2)", "var(--p1-2)"];
+  const SOURCE_LABELS = { missing: "לא מחובר", pending: "ממתין לחיוב בבנק", notfound: "לא נמצא חיוב" };
+  const STATUS_EMOJI = { good: "✅", warn: "⚠️", bad: "🔴" };
+  const DAYS_PER_MONTH = 30.44;
+
+  const store = {
+    get(key) { try { return localStorage.getItem(key); } catch (e) { return null; } },
+    set(key, value) { try { localStorage.setItem(key, value); } catch (e) {} },
+  };
+  const fullMonths = DATA.cashflow.filter((m) => !m.partial);
+  const TABS = ["summary", "credit", "banks"];
+  const state = {
+    demo: store.get("finance-demo") === "1",
+    tab: TABS.includes(location.hash.slice(1)) ? location.hash.slice(1) : store.get("finance-tab2") || "summary",
+    month: fullMonths.length ? fullMonths[fullMonths.length - 1].key : DATA.cashflow[DATA.cashflow.length - 1].key,
+    open: null,
+    // האשראי נפתח תמיד על מחזור החיוב הנוכחי.
+    mode: "cycle",
+    who: store.get("finance-who") ?? "all",
+    from: store.get("finance-from"),
+    to: store.get("finance-to"),
+    cycleIndex: CREDIT.cycles.length - 1,
+    card: null,
+    cardAll: false,
+  };
+  if (!TABS.includes(state.tab)) state.tab = "summary";
+  if (state.who !== "all" && !(Number(state.who) < CREDIT.people.length)) state.who = "all";
+
+  // ---------- עיצוב מספרים ותאריכים ----------
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const money = (n) => (state.demo ? "••••• ₪" : nf.format(n));
+  const signed = (n) => (state.demo ? "••••• ₪" : `${n >= 0 ? "+" : "−"}${nf.format(Math.abs(n))}`);
+  const sum = (list) => list.reduce((s, v) => s + v, 0);
+  const pct = (part, whole) => (whole ? Math.round((part / whole) * 100) : 0);
+  const pad2 = (n) => String(n).padStart(2, "0");
+  const parseDay = (s) => { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); };
+  const iso = (d) => `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}`;
+  const addDays = (s, n) => { const d = parseDay(s); d.setDate(d.getDate() + n); return iso(d); };
+  const daysBetween = (a, b) => Math.round((parseDay(b) - parseDay(a)) / 86400000);
+  const short = (s) => { const d = parseDay(s); return `${d.getDate()}.${d.getMonth() + 1}`; };
+  const withYear = (s) => { const d = parseDay(s); return `${short(s)}.${String(d.getFullYear()).slice(2)}`; };
+  const weekday = (s) => new Intl.DateTimeFormat("he-IL", { weekday: "long" }).format(parseDay(s)).replace(/^יום\s+/, "");
+  const monthOnly = (key, opts = { month: "long" }) => new Intl.DateTimeFormat("he-IL", opts).format(parseDay(`${key}-01`));
+  const axisMoney = (v) => (state.demo ? "•••" : Math.abs(v) >= 1000 ? `${(v / 1000).toLocaleString("he-IL", { maximumFractionDigits: 1 })} אלף` : String(Math.round(v)));
+  const shortMoney = (v) => (state.demo ? "•••" : `${v < 0 ? "−" : ""}${(Math.abs(v) / 1000).toLocaleString("he-IL", { maximumFractionDigits: 1 })}K`);
+  const swatch = (color) => `<i class="dot" style="background:${color}"></i>`;
+  const chip = (cls, label) => `<span class="chip ${cls}">${STATUS_EMOJI[cls] ?? ""} ${label}</span>`;
+
+  // ---------- חלונית מידע ----------
+  const tip = $("#tip");
+  function showTip(html, cx, cy) {
+    tip.innerHTML = html;
+    tip.hidden = false;
+    const t = tip.getBoundingClientRect();
+    let top = cy - t.height - 14;
+    if (top < 8) top = cy + 18;
+    tip.style.top = `${top}px`;
+    tip.style.left = `${Math.max(8, Math.min(cx - t.width / 2, innerWidth - t.width - 8))}px`;
+  }
+  const hideTip = () => { tip.hidden = true; };
+  const tipRows = (rows) => `<ul>${rows.map(([k, v]) => `<li><span>${k}</span><span class="num">${v}</span></li>`).join("")}</ul>`;
+  addEventListener("scroll", hideTip, { passive: true });
+
+  // ---------- גרפים ----------
+  function niceScale(maxValue, ticks = 4) {
+    const top = Math.max(maxValue, 1);
+    const rough = top / ticks;
+    const mag = 10 ** Math.floor(Math.log10(rough));
+    const step = [1, 2, 2.5, 5, 10].map((f) => f * mag).find((s) => s >= rough);
+    return { step, max: step * Math.ceil(top / step) };
+  }
+  function roundedTop(x, y, w, h, r) {
+    const rr = Math.max(Math.min(r, h, w / 2), 0);
+    return `M${x},${y + h}V${y + rr}Q${x},${y} ${x + rr},${y}H${x + w - rr}Q${x + w},${y} ${x + w},${y + rr}V${y + h}Z`;
+  }
+  function roundedBottom(x, y, w, h, r) {
+    const rr = Math.max(Math.min(r, h, w / 2), 0);
+    return `M${x},${y}V${y + h - rr}Q${x},${y + h} ${x + rr},${y + h}H${x + w - rr}Q${x + w},${y + h} ${x + w},${y + h - rr}V${y}Z`;
+  }
+  const chartSize = (box, height) => { const W = Math.max(box.clientWidth, 260); return { W, H: W < 520 ? Math.min(height, 220) : height }; };
+
+  // עמודות: זו לצד זו או מוערמות, עם סימון יעד לכל עמודה ובחירה בלחיצה.
+  function drawColumns(box, { groups, series, stacked = false, budgets = null, selected = -1, onSelect = null, tipFor, height = 250, maxBar = 24 }) {
+    const { W, H } = chartSize(box, height);
+    const m = { top: 14, right: 8, bottom: 28, left: 56 };
+    const iw = W - m.left - m.right;
+    const ih = H - m.top - m.bottom;
+    const tops = groups.map((g) => (stacked ? sum(g.values) : Math.max(0, ...g.values)));
+    const { step, max } = niceScale(Math.max(...tops, ...(budgets ?? [0])) * 1.04);
+    const slot = iw / Math.max(groups.length, 1);
+    const y = (v) => m.top + ih - (v / max) * ih;
+    const every = Math.max(1, Math.ceil(40 / slot));
+    let svg = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img">`;
+    for (let v = 0; v <= max + 0.01; v += step) svg += `<line class="grid" x1="${m.left}" x2="${W - m.right}" y1="${y(v)}" y2="${y(v)}"/><text class="axis" x="${m.left - 8}" y="${y(v) + 4}" text-anchor="end">${axisMoney(v)}</text>`;
+    groups.forEach((g, i) => {
+      const x0 = m.left + slot * i;
+      const cx = x0 + slot / 2;
+      if (i === selected) svg += `<rect class="sel-band" x="${x0 + 2}" y="${m.top}" width="${Math.max(slot - 4, 1)}" height="${ih}" rx="8"/>`;
+      const faded = g.faded ? "fill-opacity:.45;" : "";
+      if (stacked) {
+        const bw = Math.min(maxBar, Math.max(slot * 0.62, 2));
+        const segs = g.values.map((v, k) => ({ v, k })).filter((s) => s.v > 0);
+        let base = y(0);
+        segs.forEach((s, j) => {
+          const h = (s.v / max) * ih;
+          const gap = j > 0 ? Math.min(2, h / 2) : 0;
+          const top = base - h;
+          const style = `fill:${series[s.k].color};${faded}`;
+          svg += j === segs.length - 1 ? `<path d="${roundedTop(cx - bw / 2, top, bw, Math.max(h - gap, 0), 4)}" style="${style}"/>` : `<rect x="${cx - bw / 2}" y="${top}" width="${bw}" height="${Math.max(h - gap, 0)}" style="${style}"/>`;
+          base = top;
+        });
+      } else {
+        const n = series.length;
+        const bw = Math.min(maxBar, Math.max((slot * 0.72 - 2 * (n - 1)) / n, 2));
+        const startX = cx - (bw * n + 2 * (n - 1)) / 2;
+        g.values.forEach((v, k) => { if (v > 0) svg += `<path d="${roundedTop(startX + k * (bw + 2), y(v), bw, y(0) - y(v), 4)}" style="fill:${series[k].color};${faded}"/>`; });
+      }
+      if (budgets) svg += `<line class="budget-tick" x1="${cx - slot * 0.42}" x2="${cx + slot * 0.42}" y1="${y(budgets[i])}" y2="${y(budgets[i])}"/>`;
+      if ((groups.length - 1 - i) % every === 0 || i === selected) svg += `<text class="axis${i === selected ? " is-sel" : ""}" x="${cx}" y="${H - 9}" text-anchor="middle">${esc(g.label)}</text>`;
+      svg += `<rect class="hit col-hit${onSelect ? " clickable" : ""}" data-i="${i}" x="${x0}" y="${m.top}" width="${slot}" height="${ih + m.bottom}"/>`;
+    });
+    box.innerHTML = `${svg}</svg>`;
+    bindColumns(box, tipFor, onSelect);
+  }
+  function bindColumns(box, tipFor, onSelect) {
+    box.querySelectorAll(".col-hit").forEach((el) => {
+      const i = Number(el.dataset.i);
+      el.addEventListener("pointerenter", () => { const r = el.getBoundingClientRect(); showTip(tipFor(i), r.left + r.width / 2, r.top + 30); });
+      el.addEventListener("pointerleave", hideTip);
+      if (onSelect) el.addEventListener("click", () => onSelect(i));
+    });
+  }
+
+  // עמודות מעל ומתחת לאפס: ירוק כשנשאר כסף, אדום כשיצא יותר משנכנס.
+  function drawDiverging(box, { groups, selected = -1, onSelect = null, tipFor, height = 210 }) {
+    const { W, H } = chartSize(box, height);
+    const m = { top: 18, right: 8, bottom: 26, left: 56 };
+    const iw = W - m.left - m.right;
+    const ih = H - m.top - m.bottom;
+    const { step, max } = niceScale(Math.max(1, ...groups.map((g) => Math.abs(g.value))) * 1.1, 2);
+    const y = (v) => m.top + ih / 2 - (v / max) * (ih / 2);
+    const slot = iw / Math.max(groups.length, 1);
+    const bw = Math.min(30, slot * 0.6);
+    let svg = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img">`;
+    for (let v = -max; v <= max + 0.01; v += step) svg += `<line class="${v === 0 ? "zero" : "grid"}" x1="${m.left}" x2="${W - m.right}" y1="${y(v)}" y2="${y(v)}"/><text class="axis" x="${m.left - 8}" y="${y(v) + 4}" text-anchor="end">${axisMoney(v)}</text>`;
+    groups.forEach((g, i) => {
+      const x0 = m.left + slot * i;
+      const cx = x0 + slot / 2;
+      if (i === selected) svg += `<rect class="sel-band" x="${x0 + 2}" y="${m.top}" width="${Math.max(slot - 4, 1)}" height="${ih}" rx="8"/>`;
+      const faded = g.faded ? "fill-opacity:.45;" : "";
+      const h = Math.abs(y(g.value) - y(0));
+      svg += g.value >= 0 ? `<path d="${roundedTop(cx - bw / 2, y(g.value), bw, h, 5)}" style="fill:var(--inc);${faded}"/>` : `<path d="${roundedBottom(cx - bw / 2, y(0), bw, h, 5)}" style="fill:var(--neg);${faded}"/>`;
+      if (slot >= 34) svg += `<text class="val" x="${cx}" y="${g.value >= 0 ? y(g.value) - 5 : y(g.value) + 13}" text-anchor="middle">${shortMoney(g.value)}</text>`;
+      if (slot >= 30 || i % 2 === 0) svg += `<text class="axis${i === selected ? " is-sel" : ""}" x="${cx}" y="${H - 8}" text-anchor="middle">${esc(g.label)}</text>`;
+      svg += `<rect class="hit col-hit${onSelect ? " clickable" : ""}" data-i="${i}" x="${x0}" y="${m.top}" width="${slot}" height="${ih + m.bottom}"/>`;
+    });
+    box.innerHTML = `${svg}</svg>`;
+    bindColumns(box, tipFor, onSelect);
+  }
+
+  // עוגה: פרוסות בסדר קבוע של הצבעים, רווח של 2 פיקסלים ביניהן, וסה"כ באמצע.
+  function drawDonut(box, items, { size = 190, center = 'סה"כ' } = {}) {
+    const total = sum(items.map((i) => i.value));
+    const thick = Math.round(size * 0.16);
+    const c = size / 2;
+    const r = c - thick / 2 - 2;
+    const C = 2 * Math.PI * r;
+    let svg = `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" role="img" aria-label="${esc(center)}">`;
+    if (!total) svg += `<circle cx="${c}" cy="${c}" r="${r}" fill="none" stroke="var(--line)" stroke-width="${thick}"/>`;
+    let offset = 0;
+    items.forEach((it, i) => {
+      const len = (it.value / total) * C;
+      const dash = Math.max(len - (items.length > 1 ? 2.5 : 0), 0.01);
+      svg += `<circle class="seg" data-i="${i}" cx="${c}" cy="${c}" r="${r}" fill="none" stroke="${it.color}" stroke-width="${thick}" stroke-dasharray="${dash} ${C - dash}" stroke-dashoffset="${-offset}" transform="rotate(-90 ${c} ${c})"/>`;
+      offset += len;
+    });
+    svg += `<text class="donut-label" x="${c}" y="${c - 8}" text-anchor="middle">${esc(center)}</text><text class="donut-value num" x="${c}" y="${c + 16}" text-anchor="middle">${state.demo ? "•••••" : nf.format(total)}</text></svg>`;
+    box.innerHTML = svg;
+    box.querySelectorAll(".seg").forEach((el) => {
+      const it = items[Number(el.dataset.i)];
+      el.addEventListener("pointermove", (ev) => {
+        box.classList.add("dim"); el.classList.add("on");
+        const rows = [["סכום", money(it.value)], ["חלק", `${pct(it.value, total)}%`]];
+        if (it.parts) it.parts.slice(0, 5).forEach(([n, v]) => rows.push([esc(n), money(v)]));
+        showTip(`<strong>${swatch(it.color)} ${esc(it.name)}</strong>${tipRows(rows)}`, ev.clientX, ev.clientY);
+      });
+      el.addEventListener("pointerleave", () => { box.classList.remove("dim"); el.classList.remove("on"); hideTip(); });
+    });
+    return total;
+  }
+
+  // לעוגה: קטגוריות עם צבע קבוע, והשאר מקובצות ל"אחר". לרשימה: כל הקטגוריות.
+  function categoryItems(totals, slots) {
+    const donut = [];
+    const list = [];
+    const other = { name: "אחר", value: 0, color: "var(--c-other)", slot: 11, parts: [] };
+    for (const [name, value] of Object.entries(totals)) {
+      if (value <= 0) continue;
+      const color = slots[name] ? `var(--c${slots[name]})` : "var(--c-other)";
+      list.push({ name, value, color });
+      if (slots[name]) donut.push({ name, value, color, slot: slots[name] });
+      else { other.value += value; other.parts.push([name, value]); }
+    }
+    if (other.value > 0) donut.push({ ...other, parts: other.parts.sort((a, b) => b[1] - a[1]) });
+    return { donut: donut.sort((a, b) => a.slot - b.slot), list: list.sort((a, b) => b.value - a.value) };
+  }
+  function listHTML(items, total, extra = () => "") {
+    if (!items.length) return '<li class="empty">אין נתונים בתקופה הזו</li>';
+    return items.map((it) => `<li>${swatch(it.color)}<span class="cat-name">${esc(it.name)}</span><span class="cat-pct">${pct(it.value, total)}%</span><span class="cat-amt num">${money(it.value)}</span>${extra(it)}</li>`).join("");
+  }
+
+  // ================= סיכום =================
+  const plan = DATA.plan;
+  const planIncome = plan ? sum(Object.values(plan.income)) : null;
+  const planExpenseOf = (label) => plan?.expense?.[label] ?? null;
+  const planOps = plan ? sum(["ויזה", "משכנתא", "שונות"].map((k) => planExpenseOf(k) ?? 0)) : null;
+  const planSaving = plan ? (planExpenseOf("חיסכון חופשה") ?? 0) + (planExpenseOf("חיסכון") ?? 0) : null;
+  const savingsTotal = sum(DATA.accounts.list.filter((a) => a.type === "SAVINGS").map((a) => a.amount));
+  const checkingTotal = sum(DATA.accounts.list.filter((a) => a.type === "CHECKING").map((a) => a.amount));
+  const debtKnown = sum(DATA.loans.connected.map((x) => x.balance)) + sum(DATA.loans.external.filter((x) => typeof x.balance === "number").map((x) => x.balance));
+
+  function summaryMonth() {
+    if (state.month !== "avg") return DATA.cashflow.find((m) => m.key === state.month);
+    const n = fullMonths.length || 1;
+    const avgObj = (pick) => { const out = {}; for (const m of fullMonths) for (const [k, v] of Object.entries(pick(m))) out[k] = (out[k] ?? 0) + v / n; return out; };
+    return {
+      key: "avg", label: `ממוצע ${n} חודשים`, income: avgObj((m) => m.income), incomeTotal: sum(fullMonths.map((m) => m.incomeTotal)) / n,
+      expense: avgObj((m) => m.expense), expenseTotal: sum(fullMonths.map((m) => m.expenseTotal)) / n,
+      left: sum(fullMonths.map((m) => m.left)) / n, saved: sum(fullMonths.map((m) => m.saved)) / n, categories: avgObj((m) => m.categories),
+    };
+  }
+
+  function greeting() {
+    const now = new Date();
+    const h = now.getHours();
+    if (now.getDay() === 6 && h >= 18) return "שבוע טוב";
+    if (h >= 5 && h < 12) return "בוקר טוב";
+    if (h >= 12 && h < 17) return "צהריים טובים";
+    if (h >= 17 && h < 22) return "ערב טוב";
+    return "לילה טוב";
+  }
+
+  // המצב של מחזור האשראי הנוכחי, לאריח בסיכום.
+  function currentCredit() {
+    const c = CREDIT.cycles[CREDIT.cycles.length - 1];
+    const total = sum(c.people.map((p) => p.total));
+    const budget = sum(c.people.map((p) => p.budget));
+    return { c, total, budget, should: (budget * c.elapsed) / c.days };
+  }
+
+  function glanceTile(key, emo, tint, title, value, sub, viz) {
+    return `<button type="button" class="g-tile ${tint}" data-key="${key}" aria-expanded="${state.open === key}" aria-controls="glance-detail">
+      <span class="g-top"><span class="g-title">${title}</span><span class="g-emo" aria-hidden="true">${emo}</span></span>
+      <span class="g-value num">${value}</span><span class="g-sub">${sub}</span>${viz}
+      <span class="g-more">${state.open === key ? "סגירה ⌃" : "לפרטים ›"}</span></button>`;
+  }
+  const bar = (part, whole, color, mark = null) => `<span class="g-viz"><span class="fill" style="width:${Math.min(whole ? (part / whole) * 100 : 0, 100)}%;background:${color}"></span>${mark !== null ? `<span class="mark" style="inset-inline-start:${Math.min(mark * 100, 100)}%"></span>` : ""}</span>`;
+
+  function renderSummary() {
+    const m = summaryMonth();
+    $("#hello").textContent = `${greeting()}${DATA.names ? `, ${DATA.names}` : ""} 👋`;
+    $("#sum-title").textContent = m.key === "avg" ? "החודש הממוצע במבט אחד" : `${m.label} במבט אחד`;
+    $("#sum-sub").innerHTML = m.left >= 0
+      ? `${m.key === "avg" ? "בחודש ממוצע" : "החודש"} נשארו <b class="pos">${money(m.left)}</b> אחרי כל ההוצאות`
+      : `${m.key === "avg" ? "בחודש ממוצע" : "החודש"} יצא יותר משנכנס: <b class="neg">${money(-m.left)}</b>`;
+    const sel = $("#sum-month");
+    sel.innerHTML = [...DATA.cashflow].reverse().map((x) => `<option value="${x.key}">${esc(x.label)}${x.partial ? " (עד היום)" : ""}</option>`).join("") + `<option value="avg">ממוצע ${fullMonths.length} חודשים</option>`;
+    sel.value = state.month;
+
+    const cr = currentCredit();
+    const crStatus = cr.total > cr.budget ? "neg" : cr.total > cr.should ? "warn" : "pos";
+    const paid = sum(DATA.loans.connected.map((x) => Math.max(x.original - x.balance, 0)));
+    const original = sum(DATA.loans.connected.map((x) => x.original));
+    const assetsKnown = DATA.assets.filter((a) => typeof a.value === "number");
+    $("#glance").innerHTML = [
+      glanceTile("banks", "🏦", "t-blue", "בנקים", money(checkingTotal + savingsTotal), `עו"ש ${money(checkingTotal)} · חיסכון ${money(savingsTotal)}`,
+        `<span class="g-viz split"><span style="flex:${Math.max(checkingTotal, 0)};background:var(--c1)"></span><span style="flex:${savingsTotal};background:var(--c3)"></span></span>`),
+      glanceTile("income", "💰", "t-green", "הכנסות", money(m.incomeTotal), plan ? `מתוך ${money(planIncome)} בתוכנית` : "", bar(m.incomeTotal, planIncome ?? m.incomeTotal, "var(--inc)")),
+      glanceTile("expenses", "🧾", "t-rose", "הוצאות", money(m.expenseTotal), plan ? `תוכנית ${money(planOps)} · <b class="${m.expenseTotal > planOps ? "neg" : "pos"}">${signed(m.expenseTotal - planOps)}</b>` : "",
+        bar(m.expenseTotal, Math.max(m.expenseTotal, planOps ?? 0) * 1.05, m.expenseTotal > (planOps ?? Infinity) ? "var(--neg)" : "var(--exp)", planOps ? planOps / (Math.max(m.expenseTotal, planOps) * 1.05) : null)),
+      glanceTile("credit", "💳", "t-violet", `אשראי · ${esc(cr.c.label)}`, money(cr.total),
+        `<b class="${crStatus}">${pct(cr.total, cr.budget)}%</b> מהיעד · היינו צריכים ${money(cr.should)}`,
+        bar(cr.total, Math.max(cr.total, cr.budget), crStatus === "neg" ? "var(--neg)" : "var(--c7)", cr.should / Math.max(cr.total, cr.budget))),
+      glanceTile("loans", "🏠", "t-amber", "משכנתאות", money(debtKnown), `החזר חודשי ${money(DATA.loans.monthlyTotal)}${DATA.loans.external.some((x) => typeof x.balance !== "number") ? " · בלי הפועלים" : ""}`,
+        bar(paid, original, "var(--c4)")),
+      glanceTile("assets", "📈", "t-teal", "השקעות וחיסכון", money(savingsTotal + sum(assetsKnown.map((a) => a.value))),
+        `${assetsKnown.length + 1} מתוך ${DATA.assets.length + 1} עם נתון`, bar(assetsKnown.length + 1, DATA.assets.length + 1, "var(--c3)")),
+    ].join("");
+    renderDetail(m);
+    renderInsight(m);
+    renderLeftChart();
+    if ($('details[data-draw="flow"]').open) drawFlow();
+  }
+
+  // הפירוט שנפתח מתחת לאריחים, לפי האריח שנבחר.
+  function renderDetail(m) {
+    const box = $("#glance-detail");
+    if (!state.open) { box.hidden = true; box.innerHTML = ""; return; }
+    box.hidden = false;
+    const close = `<button class="link" type="button" data-close>סגירה ✕</button>`;
+    if (state.open === "banks") {
+      const l = DATA.liquid;
+      box.innerHTML = `<div class="card-head"><h2 class="card-title">🏦 מצב הבנקים</h2>${close}</div>
+        <ul class="acc-lines">${DATA.accounts.list.map((a) => `<li><span>${logo(a.provider, "small")} ${esc(a.label)}<small>${a.type === "CHECKING" ? `נכון ל־${short(a.asOf)}` : a.maturity ? `עד ${withYear(a.maturity)}` : "ללא מועד סיום"}</small></span><b class="num">${money(a.amount)}</b></li>`).join("")}</ul>
+        <div class="split"><span style="flex:${Math.max(l.cash - l.charges, 0)};background:var(--inc)"></span><span style="flex:${Math.min(l.charges, l.cash)};background:var(--neg)"></span></div>
+        <div class="split-legend"><span>${swatch("var(--inc)")}כסף בבנק <b class="num">${money(l.cash)}</b></span><span>${swatch("var(--neg)")}חיובי אשראי קרובים <b class="num">${money(l.charges)}</b></span><span>מצב נזיל <b class="num">${money(l.net)}</b></span></div>
+        <p class="fine"><button class="link" type="button" data-goto="banks">לכל הפרטים בטאב הבנקים ›</button></p>`;
+    } else if (state.open === "income") {
+      const items = DATA.incomeSources.map((s) => ({ name: s.name, value: m.income[s.name] ?? 0, plan: s.plan ? plan?.income?.[s.plan] ?? null : null, color: INCOME_SLOTS[s.name] ? `var(--c${INCOME_SLOTS[s.name]})` : "var(--c-other)", slot: INCOME_SLOTS[s.name] ?? 11 }))
+        .filter((it) => it.value > 0 || it.plan);
+      box.innerHTML = `<div class="card-head"><h2 class="card-title">💰 הכנסות לפי מקור · ${esc(m.label)}</h2>${close}</div><div class="donut-row"><div class="donut" id="inc-donut"></div><ul class="cat-list" id="inc-list"></ul></div>`;
+      const total = drawDonut($("#inc-donut"), items.filter((it) => it.value > 0), { center: 'סה"כ הכנסות' });
+      $("#inc-list").innerHTML = listHTML(items, total, (it) => (it.plan !== null && it.plan !== undefined ? `<span class="sub">תוכנית ${money(it.plan)} · <span class="${it.value >= it.plan ? "pos" : "neg"}">${signed(it.value - it.plan)}</span></span>` : ""));
+    } else if (state.open === "expenses") {
+      const rows = [
+        { label: "💳 כרטיסי אשראי", actual: m.expense.cards ?? 0, planned: planExpenseOf("ויזה"), color: "var(--c7)", low: true },
+        { label: "🏠 משכנתאות", actual: m.expense.loans ?? 0, planned: planExpenseOf("משכנתא"), color: "var(--c8)", low: true },
+        { label: "🧾 שוטף מהבנק", actual: m.expense.bank ?? 0, planned: planExpenseOf("שונות"), color: "var(--c4)", low: true },
+        { label: "🐷 הפקדה לחיסכון", actual: m.saved, planned: planSaving, color: "var(--inc)", low: false },
+      ];
+      box.innerHTML = `<div class="card-head"><h2 class="card-title">🧾 הוצאות · ${esc(m.label)}</h2>${close}</div>
+        <div class="two"><div class="plan-rows">${rows.map((r) => {
+          const scale = Math.max(Math.abs(r.actual), r.planned ?? 0, 1) * 1.1;
+          const diff = r.planned === null ? null : r.actual - r.planned;
+          const good = diff === null ? true : r.low ? diff <= 0 : diff >= 0;
+          return `<div><div class="plan-head"><span>${r.label}</span><span class="num"><b class="${r.actual < 0 ? "neg" : ""}">${money(r.actual)}</b>${r.planned !== null ? ` מתוך ${money(r.planned)}` : ""}</span></div>
+            <div class="plan-bar"><span class="fill" style="width:${(Math.max(r.actual, 0) / scale) * 100}%;background:${r.color}"></span>${r.planned !== null ? `<span class="mark" style="inset-inline-start:${(r.planned / scale) * 100}%"></span>` : ""}</div>
+            <div class="plan-foot">${diff === null ? "" : `<span class="${good ? "pos" : "neg"}">${signed(diff)}</span> ${r.low ? (diff > 0 ? "מעל התוכנית" : "מתחת לתוכנית") : diff >= 0 ? "יותר מהתוכנית" : "פחות מהתוכנית"}`}</div></div>`;
+        }).join("")}</div>
+        <div><div class="donut-row"><div class="donut" id="where-donut"></div><ul class="cat-list" id="where-list"></ul></div></div></div>
+        <p class="fine">הוצאות בשיטת תזרים, כמו בקובץ: כמה ירד מחשבון העו"ש באותו חודש. העברות בין העו"ש לחסכונות לא נספרות כהוצאה או כהכנסה.</p>`;
+      const where = categoryItems(m.categories, EXPENSE_SLOTS);
+      $("#where-list").innerHTML = listHTML(where.list, drawDonut($("#where-donut"), where.donut, { center: "לאן הלך" }));
+    } else if (state.open === "credit") {
+      const cr = currentCredit();
+      box.innerHTML = `<div class="card-head"><h2 class="card-title">💳 ${esc(cr.c.label)}: יום ${cr.c.elapsed} מתוך ${cr.c.days}</h2>${close}</div>
+        <div class="bullets" style="margin-top:8px">${bulletRows(selCycle(cr.c), cr.c.people)}</div>
+        <h3 class="card-title" style="font-size:15px;margin:22px 0 10px">💳 לפי כרטיס · לחיצה פותחת את כל העסקאות</h3>
+        <div class="card-strip">${CREDIT.cards.map((c, i) => {
+          const spent = sum(CREDIT.rows.filter((r) => r.c === i && r.y === cr.c.key && r.r).map((r) => r.a));
+          return `<button type="button" class="cc" data-goto-card="${i}"><span class="cc-top">${logo(c.issuer, "big")}<span class="cc-pan num">•••• ${esc(c.last4)}</span></span>
+            <span class="owner">${swatch(PERSON[c.person])}${esc(CREDIT.people[c.person])}</span><span class="cc-amount num">${money(spent)}</span><span class="g-more">לכל העסקאות ›</span></button>`;
+        }).join("")}</div>
+        <p class="fine"><button class="link" type="button" data-goto="credit">לכל הפרטים בטאב האשראי ›</button></p>`;
+    } else if (state.open === "loans") {
+      box.innerHTML = `<div class="card-head"><h2 class="card-title">🏠 הלוואות ומשכנתאות</h2>${close}</div>${loansHTML()}`;
+    } else if (state.open === "assets") {
+      box.innerHTML = `<div class="card-head"><h2 class="card-title">📈 השקעות וחסכונות</h2>${close}</div>${assetsHTML()}`;
+    }
+  }
+
+  function renderInsight(m) {
+    const n = fullMonths.length;
+    const avgLeft = n ? sum(fullMonths.map((x) => x.left)) / n : 0;
+    const avgCards = n ? sum(fullMonths.map((x) => x.expense.cards ?? 0)) / n : 0;
+    const negMonths = fullMonths.filter((x) => x.left < 0).length;
+    const lines = [];
+    if (m.left < 0 && m.saved < 0) lines.push(`${m.key === "avg" ? "בחודש ממוצע" : `ב${m.label}`} הפער כוסה ממשיכה של <b>${money(-m.saved)}</b> מהחסכונות.`);
+    if (plan && (m.expense.cards ?? 0) > (planExpenseOf("ויזה") ?? Infinity)) lines.push(`עיקר הפער הוא כרטיסי האשראי: <b>${money(m.expense.cards)}</b>, מול ${money(planExpenseOf("ויזה"))} בתוכנית.`);
+    if (n) lines.push(`ב־${n} החודשים האחרונים נשאר בממוצע <b class="${avgLeft >= 0 ? "pos" : "neg"}">${money(avgLeft)}</b> בחודש${planIncome !== null ? ` (בתוכנית: ${money(planIncome - planOps)})` : ""}. ב־${negMonths} מהם יצא יותר משנכנס, והאשראי עמד בממוצע על ${money(avgCards)}.`);
+    $("#sum-insight").innerHTML = `<span class="big-emo" aria-hidden="true">💡</span><div>${lines.map((l) => `<p>${l}</p>`).join("")}</div>`;
+  }
+
+  function pickMonth(i) { state.month = DATA.cashflow[i].key; renderSummary(); window.scrollTo({ top: 0, behavior: "smooth" }); }
+  function renderLeftChart() {
+    const months = DATA.cashflow;
+    const selected = months.findIndex((x) => x.key === state.month);
+    drawDiverging($("#left-chart"), {
+      groups: months.map((x) => ({ label: x.short, value: x.left, faded: x.partial })), selected, onSelect: pickMonth,
+      tipFor: (i) => `<strong>${esc(months[i].label)}</strong>${tipRows([["נכנס", money(months[i].incomeTotal)], ["יצא", money(months[i].expenseTotal)], ["נשאר", signed(months[i].left)], ["תנועה בחסכונות", signed(months[i].saved)]])}`,
+    });
+    const n = fullMonths.length || 1;
+    $("#flow-totals").innerHTML = `
+      <span>${swatch("var(--inc)")}הכנסה ממוצעת <b class="num">${money(sum(fullMonths.map((x) => x.incomeTotal)) / n)}</b></span>
+      <span>${swatch("var(--exp)")}הוצאה ממוצעת <b class="num">${money(sum(fullMonths.map((x) => x.expenseTotal)) / n)}</b></span>
+      <span>🐷 שינוי בחסכונות ב־${n} חודשים <b class="num">${signed(sum(fullMonths.map((x) => x.saved)))}</b></span>`;
+  }
+  function drawFlow() {
+    const months = DATA.cashflow;
+    drawColumns($("#flow-chart"), {
+      groups: months.map((x) => ({ label: x.short, values: [x.incomeTotal, x.expenseTotal], faded: x.partial })),
+      series: [{ name: "הכנסות", color: "var(--inc)" }, { name: "הוצאות", color: "var(--exp)" }],
+      budgets: planOps !== null ? months.map(() => planOps) : null,
+      selected: months.findIndex((x) => x.key === state.month), onSelect: pickMonth,
+      tipFor: (i) => `<strong>${esc(months[i].label)}</strong>${tipRows([[`${swatch("var(--inc)")}הכנסות`, money(months[i].incomeTotal)], [`${swatch("var(--exp)")}הוצאות`, money(months[i].expenseTotal)], ["נשאר", signed(months[i].left)]])}`,
+    });
+  }
+
+  function loansHTML() {
+    const l = DATA.loans;
+    const rows = l.connected.map((x) => {
+      const paid = Math.max(x.original - x.balance, 0);
+      const p = pct(paid, x.original);
+      return `<div class="loan"><div class="row-top">${logo(x.bank)}<span class="row-text"><span class="row-name">${esc(x.name)}</span><span class="row-sub">${esc(x.track)} · ****${x.last4}</span></span><span class="row-amount num">${money(x.balance)}<small>יתרה לסילוק</small></span></div>
+        <div class="progress" title="שולמו ${p}%"><span style="width:${Math.max(p, 1)}%"></span></div>
+        <div class="row-foot"><span>שולמו ${money(paid)} · ${p}% מתוך ${money(x.original)}</span><span>${x.end ? `עד ${withYear(x.end)}` : ""}</span></div></div>`;
+    });
+    for (const x of l.external) rows.push(`<div class="loan"><div class="row-top">${logo(x.bank)}<span class="row-text"><span class="row-name">${esc(x.name)}</span><span class="row-sub">לא מחובר · ההחזר יורד מהעו"ש במזרחי</span></span><span class="row-amount num">${typeof x.balance === "number" ? money(x.balance) : '<span class="warn">יתרה חסרה</span>'}<small>החזר ${money(x.monthly)} בחודש</small></span></div></div>`);
+    return `<div class="minis"><div class="mini"><span>יתרת חוב ידועה</span><b class="num">${money(debtKnown)}</b></div>
+      <div class="mini"><span>החזר חודשי (${esc(l.month)})</span><b class="num">${money(l.monthlyTotal)}</b>${plan ? `<span>תוכנית ${money(planExpenseOf("משכנתא"))}</span>` : ""}</div>
+      <div class="mini"><span>הלוואות</span><b class="num">${l.connected.length + l.external.length}</b><span>${l.connected.length} מחוברות</span></div></div>${rows.join("")}`;
+  }
+
+  function assetsHTML() {
+    const kinds = { home: "🏡", business: "💼", realestate: "🏢", stocks: "📈", studyfund: "🎓" };
+    const savings = DATA.accounts.list.filter((a) => a.type === "SAVINGS");
+    const known = DATA.assets.filter((a) => typeof a.value === "number");
+    const complete = known.length === DATA.assets.length && !DATA.loans.external.some((x) => typeof x.balance !== "number");
+    const assetsTotal = savingsTotal + sum(known.map((a) => a.value));
+    const rent = fullMonths.length && RENT_SOURCE ? sum(fullMonths.map((x) => x.income[RENT_SOURCE] ?? 0)) / fullMonths.length : 0;
+    const cards = [`<div class="asset"><span class="a-emo">🐷</span><span class="row-name">פיקדונות וחיסכון</span><span class="a-value num">${money(savingsTotal)}</span>
+      <span class="a-note">${savings.map((s) => `${esc(s.label)} ${money(s.amount)}`).join(" · ")}</span></div>`];
+    for (const a of DATA.assets) {
+      cards.push(`<div class="asset"><span class="a-emo">${kinds[a.kind] ?? "💼"}</span><span class="row-name">${esc(a.name)}</span>
+        ${typeof a.value === "number" ? `<span class="a-value num">${money(a.value)}</span>` : '<span class="a-missing">חסר נתון</span>'}
+        ${a.kind === "realestate" && rent ? `<span class="a-note">שכירות ממוצעת ${money(rent)} בחודש</span>` : ""}
+        <span class="a-note">${a.updated ? `עודכן ${withYear(a.updated)}` : "מתעדכן ידנית"}</span></div>`);
+    }
+    return `<div class="minis"><div class="mini"><span>נכסים ידועים</span><b class="num">${money(assetsTotal)}</b></div><div class="mini"><span>חובות ידועים</span><b class="num">${money(debtKnown)}</b></div>
+      <div class="mini"><span>שווי נקי</span>${complete ? `<b class="num">${signed(assetsTotal - debtKnown)}</b>` : '<b class="warn" style="font-size:14px">יחושב כשיהיו כל הערכים</b>'}</div></div>
+      <div class="asset-grid">${cards.join("")}</div>
+      ${known.length < DATA.assets.length ? '<p class="fine">נכסים בלי נתון לא מחוברים לשום מקור. תמסור לי ערכים או תחבר ב־Financy, והם יופיעו כאן.</p>' : ""}`;
+  }
+
+  // ================= כרטיסי אשראי =================
+  const monthlyBudget = (p) => CREDIT.cycles[CREDIT.cycles.length - 1].people[p].budget;
+  const selCycle = (c) => ({ kind: "cycle", cycle: c, from: c.start, to: c.end, days: c.days, elapsed: c.elapsed, open: c.open, label: c.label, rows: CREDIT.rows.filter((r) => r.y === c.key && r.r) });
+
+  function selection() {
+    if (state.mode === "cycle") return selCycle(CREDIT.cycles[state.cycleIndex]);
+    const today = DATA.today;
+    let from = state.from || CREDIT.cycles[CREDIT.cycles.length - 1].start;
+    let to = state.to || today;
+    if (from > to) [from, to] = [to, from];
+    if (from < CREDIT.firstDate) from = CREDIT.firstDate;
+    if (to > today) to = today;
+    const days = daysBetween(from, to) + 1;
+    return { kind: "range", from, to, days, elapsed: days, open: false, label: `${withYear(from)} – ${withYear(to)}`, rows: CREDIT.rows.filter((r) => r.d >= from && r.d <= to) };
+  }
+
+  function peopleFor(sel) {
+    let people;
+    if (sel.kind === "cycle") people = sel.cycle.people.map((p) => ({ ...p, cards: p.cards.map((c) => ({ ...c, issuer: CREDIT.cards.find((x) => x.label === c.label)?.issuer })) }));
+    else people = CREDIT.people.map((name, p) => {
+      const own = sel.rows.filter((r) => r.p === p);
+      const cards = CREDIT.cards.map((c, i) => ({ ...c, i })).filter((c) => c.person === p).map((c) => ({ label: c.label, issuer: c.issuer, amount: c.connected ? sum(own.filter((r) => r.c === c.i).map((r) => r.a)) : null, source: "missing" }));
+      return { name, budget: Math.round((monthlyBudget(p) * sel.days) / DAYS_PER_MONTH), total: sum(own.map((r) => r.a)), partial: cards.some((c) => c.amount === null), cards, offCycle: [] };
+    });
+    people.forEach((p, i) => { p.oneOff = sum(sel.rows.filter((r) => r.p === i && r.a >= 1500).map((r) => r.a)); });
+    return people;
+  }
+
+  function statusOf(total, budget, sel) {
+    if (total > budget) return { cls: "bad", label: "חריגה מהיעד" };
+    if (!sel.open) return { cls: "good", label: sel.kind === "cycle" ? "עמד ביעד" : "בתוך היעד" };
+    if (total > (budget * sel.elapsed) / sel.days) return { cls: "warn", label: "מעל הקצב" };
+    return { cls: "good", label: "במסלול" };
+  }
+
+  const selectedPeople = () => (state.who === "all" ? CREDIT.people.map((_, i) => i) : [Number(state.who)]);
+  const whoColor = () => (state.who === "all" ? "var(--ink)" : PERSON[Number(state.who)]);
+
+  // שורת גרף מצב לכל אחד: כמה הוציאו, איפה היו צריכים לעמוד היום, ואיפה היעד.
+  function bulletRows(sel, people) {
+    const rows = [{ name: "משותף", color: "var(--ink)", budget: sum(people.map((p) => p.budget)), total: sum(people.map((p) => p.total)), partial: people.some((p) => p.partial) },
+      ...people.map((p, i) => ({ name: p.name, color: PERSON[i], budget: p.budget, total: p.total, partial: p.partial }))];
+    return rows.map((r) => {
+      const should = sel.open ? (r.budget * sel.elapsed) / sel.days : r.budget;
+      const scale = Math.max(r.budget, r.total) * 1.04;
+      const s = statusOf(r.total, r.budget, sel);
+      // תווית ליד קצה הפס נצמדת פנימה, כדי שלא תיחתך בשולי המסך (בעברית ההתחלה מימין).
+      const edge = (pos) => (pos > 0.8 ? " near-left" : pos < 0.2 ? " near-right" : "");
+      return `<div class="bullet">
+        <div class="b-head"><span class="b-name">${swatch(r.color)}${esc(r.name)} ${r.partial ? chip("warn", "חלקי") : chip(s.cls, s.label)}</span>
+          <span class="b-nums num"><b>${money(r.total)}</b> מתוך ${money(r.budget)} · ${pct(r.total, r.budget)}%</span></div>
+        <div class="b-track">
+          <span class="b-fill" style="width:${(r.total / scale) * 100}%;background:${s.cls === "bad" ? "var(--neg)" : r.color}"></span>
+          ${sel.open ? `<span class="b-mark should${edge(should / scale)}" style="inset-inline-start:${(should / scale) * 100}%"><em>🎯 צריך היום ${money(should)}</em></span>` : ""}
+          <span class="b-mark budget${edge(r.budget / scale)}" style="inset-inline-start:${(r.budget / scale) * 100}%"><em>יעד ${money(r.budget)}</em></span>
+        </div></div>`;
+    }).join("");
+  }
+
+  function renderHero(sel) {
+    $("#who").innerHTML = [["all", "משותף"], ...CREDIT.people.map((n, i) => [String(i), n])].map(([v, label]) => `<button type="button" role="radio" data-who="${v}" aria-checked="${state.who === v}">${esc(label)}</button>`).join("");
+    $("#dates-toggle").setAttribute("aria-pressed", String(state.mode === "custom"));
+    $("#range-dates").hidden = state.mode !== "custom";
+    if (sel.kind === "cycle") {
+      const c = sel.cycle;
+      const toCharge = daysBetween(DATA.today, c.chargeDate);
+      $("#cr-title").textContent = c.open ? `${c.label} · החודש הנוכחי` : c.label;
+      $("#cr-sub").textContent = c.open
+        ? `${short(c.start)}–${short(c.end)} · יום ${c.elapsed} מתוך ${c.days} · ${toCharge > 0 ? `עוד ${toCharge} ימים לחיוב ב־${short(c.chargeDate)}` : "החיוב היום"}`
+        : `${short(c.start)}–${short(c.end)} · התקופה הסתיימה · חויב ב־${short(c.chargeDate)}`;
+    } else {
+      $("#cr-title").textContent = `📅 ${sel.label}`;
+      $("#cr-sub").textContent = `${sel.days} ימים · לפי תאריך הרכישה, כולל חיובים מחוץ למחזור · יעד יחסי לאורך התקופה`;
+      const f = $("#date-from");
+      const t = $("#date-to");
+      f.min = t.min = CREDIT.firstDate;
+      f.max = t.max = DATA.today;
+      f.value = sel.from;
+      t.value = sel.to;
+    }
+    // בלשונית רק שם החודש. המצב שלו מוצג אחרי שבוחרים בו.
+    $("#month-tabs").innerHTML = CREDIT.cycles.map((cy, i) => ({ cy, i })).reverse().map(({ cy, i }) => {
+      const selected = state.mode === "cycle" && i === state.cycleIndex;
+      return `<button type="button" class="mtab" role="tab" data-i="${i}" aria-selected="${selected}">
+        <span class="m-name">${monthOnly(cy.key)}</span>
+        <span class="m-year">${cy.key.slice(0, 4)}</span></button>`;
+    }).join("");
+    const active = $("#month-tabs [aria-selected='true']");
+    if (active) active.scrollIntoView({ block: "nearest", inline: "nearest" });
+  }
+
+  // לוח המספרים: איפה היינו צריכים לעמוד, איפה עומדים, כמה אחוז, כמה נשאר וכמה ימים.
+  function renderBoard(sel, people) {
+    const chosen = selectedPeople();
+    const budget = sum(chosen.map((p) => people[p].budget));
+    const total = sum(chosen.map((p) => people[p].total));
+    const should = sel.open ? (budget * sel.elapsed) / sel.days : budget;
+    const left = budget - total;
+    const s = statusOf(total, budget, sel);
+    const cls = s.cls === "bad" ? "neg" : s.cls === "warn" ? "warn" : "pos";
+    const whoName = state.who === "all" ? "ביחד" : CREDIT.people[Number(state.who)];
+    $("#board-meta").textContent = `${whoName} · ${sel.kind === "cycle" ? sel.cycle.label : sel.label}`;
+    const daysLeft = sel.kind === "cycle" ? Math.max(daysBetween(DATA.today, sel.cycle.chargeDate), 0) : null;
+    const stat = (tint, emo, label, value, small, valueCls = "") => `<div class="stat ${tint}"><span class="s-label"><span aria-hidden="true">${emo}</span>${label}</span><b class="num ${valueCls}">${value}</b><small>${small}</small></div>`;
+    $("#stats").innerHTML = [
+      stat("t-blue", "🎯", sel.open ? "היינו צריכים לעמוד על" : "היעד לתקופה", money(should), sel.open ? `יעד עד היום (${pct(sel.elapsed, sel.days)}% מהחודש)` : `מתוך יעד חודשי של ${money(sel.kind === "cycle" ? budget : sum(chosen.map(monthlyBudget)))}`),
+      stat("t-violet", "💳", "אנחנו עומדים על", money(total), sel.open ? `${total > should ? "מעל" : "מתחת"} לקצב ב־${money(Math.abs(total - should))}` : `${total > budget ? "מעל" : "מתחת"} ליעד ב־${money(Math.abs(left))}`, cls),
+      stat("t-amber", "📊", "מהיעד החודשי", state.demo ? "•••" : `${pct(total, budget)}%`, sel.open ? `עבר ${pct(sel.elapsed, sel.days)}% מהזמן` : s.label, cls),
+      stat("t-green", "💰", left >= 0 ? "נשאר עד סוף החודש" : "חריגה מהיעד", money(Math.abs(left)), left > 0 && sel.open && daysLeft ? `עד ${money(left / daysLeft)} ליום` : left < 0 ? "כבר מעבר ליעד" : "", left < 0 ? "neg" : ""),
+      stat("t-rose", "⏳", sel.kind === "cycle" ? (sel.open ? "ימים עד החיוב" : "יום החיוב") : "ימים בטווח", sel.kind === "cycle" ? (sel.open ? String(daysLeft) : short(sel.cycle.chargeDate)) : String(sel.days),
+        sel.kind === "cycle" ? `${weekday(sel.cycle.chargeDate)} ${short(sel.cycle.chargeDate)}` : `${short(sel.from)}–${short(sel.to)}`),
+    ].join("");
+    $("#bullets").innerHTML = bulletRows(sel, people);
+  }
+
+  function renderVerdict(sel, people) {
+    $("#verdict").innerHTML = people.map((p) => {
+      const s = statusOf(p.total, p.budget, sel);
+      const left = p.budget - p.total;
+      const daysLeft = sel.days - sel.elapsed;
+      const should = (p.budget * sel.elapsed) / sel.days;
+      let text;
+      if (p.partial) text = `<b>${esc(p.name)}</b>: ${money(p.total)} מתוך ${money(p.budget)}, אבל הסכום חלקי כי חסר כרטיס.`;
+      else if (sel.open && s.cls === "bad") text = `<b>${esc(p.name)} חורג</b>: ${money(p.total)} מתוך ${money(p.budget)} כבר ביום ${sel.elapsed}. החריגה עכשיו ${money(-left)}.`;
+      else if (sel.open && s.cls === "warn") text = `<b>${esc(p.name)} מעל הקצב</b>: ${money(p.total)}, כשהיה צריך לעמוד על ${money(should)}. כדי לעמוד ביעד: עד ${money(left / Math.max(daysLeft, 1))} ליום ב־${daysLeft} הימים שנשארו.`;
+      else if (sel.open) text = `<b>${esc(p.name)} במסלול</b>: ${money(p.total)}, היה צריך לעמוד על ${money(should)}. אפשר עד ${money(left / Math.max(daysLeft, 1))} ליום.`;
+      else if (s.cls === "bad") text = `<b>${esc(p.name)} חרג</b>: ${money(p.total)} מתוך ${money(p.budget)}, חריגה של ${money(-left)}.`;
+      else text = `<b>${esc(p.name)} עמד ביעד</b>: ${money(p.total)} מתוך ${money(p.budget)}, נשארו ${money(left)}.`;
+      return `<p>${p.partial ? chip("warn", "חלקי") : chip(s.cls, s.label)}<span>${text}</span></p>`;
+    }).join("") + CREDIT.excluded
+      .filter((x) => (sel.kind === "cycle" ? x.y === sel.cycle.key : x.d >= sel.from && x.d <= sel.to))
+      .map((x) => `<p class="excluded-note">🏔️ <span>לא נספר ביעד של ${esc(CREDIT.people[x.person])}: <b>${esc(x.m)}</b>, ${money(x.a)} ב־${short(x.d)} (${esc(x.label)}). ${esc(x.reason)}.</span></p>`).join("");
+  }
+
+  function drawProgress(sel, people) {
+    const box = $("#progress-chart");
+    const chosen = selectedPeople();
+    const budget = sum(chosen.map((p) => people[p].budget));
+    let series;
+    if (sel.kind === "cycle") series = Array.from({ length: sel.elapsed }, (_, i) => sum(chosen.map((p) => sel.cycle.people[p].daily[i] ?? 0)));
+    else { const per = chosen.map((p) => dailyBy(sel, p)); let run = 0; series = Array.from({ length: sel.elapsed }, (_, i) => (run += sum(per.map((d) => d[i])))); }
+    const color = whoColor();
+    $("#progress-legend").innerHTML = `<span><i class="key-line" style="border-color:${color}"></i>בפועל</span><span><i class="key-line dashed"></i>איפה היינו צריכים לעמוד</span><span><i class="key-line dotted"></i>היעד</span>`;
+    const { W, H } = chartSize(box, 270);
+    const m = { top: 24, right: 18, bottom: 28, left: 56 };
+    const iw = W - m.left - m.right;
+    const ih = H - m.top - m.bottom;
+    const n = sel.days;
+    const { step, max } = niceScale(Math.max(budget, ...series) * 1.06);
+    const x = (i) => m.left + (n > 1 ? (i / (n - 1)) * iw : iw / 2);
+    const y = (v) => m.top + ih - (v / max) * ih;
+    let svg = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="התקדמות מצטברת מול הקצב">`;
+    for (let v = 0; v <= max + 0.01; v += step) svg += `<line class="grid" x1="${m.left}" x2="${W - m.right}" y1="${y(v)}" y2="${y(v)}"/><text class="axis" x="${m.left - 8}" y="${y(v) + 4}" text-anchor="end">${axisMoney(v)}</text>`;
+    const tickStep = Math.max(1, Math.round(n / 5));
+    for (let i = 0; i < n; i += tickStep) { if (n - 1 - i < tickStep * 0.6 && i !== 0) continue; svg += `<text class="axis" x="${x(i)}" y="${H - 8}" text-anchor="${i === 0 ? "start" : "middle"}">${short(addDays(sel.from, i))}</text>`; }
+    if (n > 1) svg += `<text class="axis" x="${x(n - 1)}" y="${H - 8}" text-anchor="end">${short(addDays(sel.from, n - 1))}</text>`;
+    svg += `<line class="budget-line" x1="${m.left}" x2="${W - m.right}" y1="${y(budget)}" y2="${y(budget)}"/><line class="pace-line" x1="${x(0)}" y1="${y(budget / n)}" x2="${x(n - 1)}" y2="${y(budget)}"/>`;
+    if (series.length) {
+      const last = series.length - 1;
+      const lx = x(last);
+      const actual = series[last];
+      const pace = (budget * (last + 1)) / n;
+      if (sel.open) svg += `<line class="today-line" x1="${lx}" x2="${lx}" y1="${m.top}" y2="${m.top + ih}"/><text class="axis" x="${lx}" y="${m.top - 10}" text-anchor="middle">היום</text>`;
+      // הפער בין איפה שעומדים לאיפה שהיינו צריכים לעמוד, ביום האחרון.
+      const over = actual > pace;
+      const gapColor = over ? "var(--neg)" : "var(--pos)";
+      svg += `<line class="gap-line" x1="${lx}" x2="${lx}" y1="${y(pace)}" y2="${y(actual)}" style="stroke:${gapColor}"/>`;
+      svg += `<circle cx="${lx}" cy="${y(pace)}" r="4" style="fill:var(--surface);stroke:var(--muted);stroke-width:2"/>`;
+      if (series.length > 1) svg += `<polyline class="actual-line" points="${series.map((v, i) => `${x(i)},${y(v)}`).join(" ")}" style="stroke:${color}"/>`;
+      const anchor = lx > W - 150 ? "end" : "start";
+      const dx = anchor === "start" ? 10 : -10;
+      svg += `<circle class="end-dot" cx="${lx}" cy="${y(actual)}" r="5" style="fill:${color}"/>`;
+      svg += `<text class="end-label" x="${lx + dx}" y="${y(actual) - 8}" text-anchor="${anchor}">${state.demo ? "•••" : `עומדים: ${nf.format(actual)}`}</text>`;
+      svg += `<text class="gap-label" x="${lx + dx}" y="${(y(pace) + y(actual)) / 2 + 4}" text-anchor="${anchor}" style="fill:${gapColor}">${state.demo ? "" : `${over ? "▲" : "▼"} ${nf.format(Math.abs(actual - pace))} ${over ? "מעל" : "מתחת"} לקצב`}</text>`;
+    }
+    svg += `<line class="crosshair" x1="0" x2="0" y1="${m.top}" y2="${m.top + ih}" visibility="hidden"/><rect class="hit" x="${m.left}" y="${m.top}" width="${iw}" height="${ih}"/></svg>`;
+    box.innerHTML = svg;
+    const hit = box.querySelector(".hit");
+    const cross = box.querySelector(".crosshair");
+    hit.addEventListener("pointermove", (ev) => {
+      const r = hit.getBoundingClientRect();
+      const i = Math.max(0, Math.min(n - 1, Math.round(((ev.clientX - r.left) / r.width) * (n - 1))));
+      cross.setAttribute("x1", x(i)); cross.setAttribute("x2", x(i)); cross.setAttribute("visibility", "visible");
+      const date = addDays(sel.from, i);
+      const pace = (budget * (i + 1)) / n;
+      const rows = [["🎯 היינו צריכים", money(pace)]];
+      if (i < series.length) { rows.unshift(["💳 בפועל", money(series[i])]); rows.push([series[i] > pace ? "מעל הקצב" : "מתחת לקצב", money(Math.abs(series[i] - pace))]); }
+      showTip(`<strong>${weekday(date)} ${short(date)}</strong><span class="tip-meta">יום ${i + 1} מתוך ${n}</span>${tipRows(rows)}`, ev.clientX, ev.clientY);
+    });
+    hit.addEventListener("pointerleave", () => { cross.setAttribute("visibility", "hidden"); hideTip(); });
+  }
+
+  function dailyBy(sel, person) {
+    const days = new Array(sel.elapsed).fill(0);
+    for (const r of sel.rows) if (r.p === person) days[Math.min(Math.max(daysBetween(sel.from, r.d), 0), sel.elapsed - 1)] += r.a;
+    return days;
+  }
+
+  function renderCardStrip(sel) {
+    $("#card-strip").innerHTML = CREDIT.cards.map((c, i) => {
+      const spent = sum(sel.rows.filter((r) => r.c === i).map((r) => r.a));
+      const next = DATA.charges.items.filter((x) => x.issuer === c.issuer && x.last4 === c.last4).sort((a, b) => a.date.localeCompare(b.date))[0];
+      const limitPct = c.creditLimit ? Math.min(pct(spent, c.creditLimit), 100) : 0;
+      return `<button type="button" class="cc" data-card="${i}" aria-expanded="${state.card === i}" aria-controls="card-detail">
+        <div class="cc-top">${logo(c.issuer, "big")}<span class="cc-pan num">•••• ${esc(c.last4)}</span></div>
+        <div class="cc-top"><span class="owner">${swatch(PERSON[c.person])}${esc(CREDIT.people[c.person])}</span><span class="cc-product">${esc(c.product || "")}</span></div>
+        <div><div class="card-meta">${sel.kind === "cycle" ? esc(sel.cycle.label) : "בטווח שנבחר"}</div><div class="cc-amount num">${c.connected ? money(spent) : '<span class="warn" style="font-size:16px">לא מחובר</span>'}</div></div>
+        ${c.creditLimit ? `<div class="progress" title="${limitPct}% מהמסגרת"><span style="width:${Math.max(limitPct, 1)}%;background:${PERSON[c.person]}"></span></div>` : ""}
+        <div class="cc-foot"><span>${c.creditLimit ? `מסגרת ${money(c.creditLimit)}` : ""}</span><span>${next ? `חיוב ${short(next.date)}: ${money(next.amount)}` : ""}</span></div>
+        <span class="g-more">${state.card === i ? "סגירה ⌃" : "לכל העסקאות ›"}</span></button>`;
+    }).join("");
+    renderCardDetail(sel);
+  }
+
+  // הפירוט של כרטיס אחד: כל העסקאות שלו בתקופה שנבחרה, וחלוקה לקטגוריות.
+  function renderCardDetail(sel) {
+    const box = $("#card-detail");
+    if (state.card === null) { box.hidden = true; box.innerHTML = ""; return; }
+    const c = CREDIT.cards[state.card];
+    const rows = sel.rows.filter((r) => r.c === state.card).sort((a, b) => b.d.localeCompare(a.d) || b.a - a.a);
+    const total = sum(rows.map((r) => r.a));
+    const skipped = CREDIT.excluded.filter((x) => x.label === c.label && (sel.kind === "cycle" ? x.y === sel.cycle.key : x.d >= sel.from && x.d <= sel.to));
+    const shown = state.cardAll ? rows : rows.slice(0, 15);
+    box.hidden = false;
+    box.innerHTML = `<div class="card-head"><h2 class="card-title">${logo(c.issuer)} •••• ${esc(c.last4)} · ${swatch(PERSON[c.person])}${esc(CREDIT.people[c.person])}</h2><button class="link" type="button" data-close-card>סגירה ✕</button></div>
+      <div class="minis"><div class="mini"><span>${sel.kind === "cycle" ? esc(sel.cycle.label) : esc(sel.label)}</span><b class="num">${money(total)}</b></div>
+        <div class="mini"><span>עסקאות</span><b class="num">${rows.length}</b></div>
+        <div class="mini"><span>העסקה הגדולה</span><b class="num">${rows.length ? money(Math.max(...rows.map((r) => r.a))) : "–"}</b></div></div>
+      ${skipped.map((x) => `<p class="excluded-note">🏔️ לא נספר ביעד: <b>${esc(x.m)}</b>, ${money(x.a)} ב־${short(x.d)}. ${esc(x.reason)}.</p>`).join("")}
+      <div class="two" style="margin-top:12px">
+        <div class="table-wrap" style="margin-top:0"><table class="htable"><thead><tr><th>תאריך</th><th>בית עסק</th><th>קטגוריה</th><th class="num">סכום</th></tr></thead><tbody>
+          ${shown.map((r) => `<tr><td>${short(r.d)}</td><td>${esc(r.m)}${r.r ? "" : '<span class="tag">מחוץ למחזור</span>'}</td><td>${esc(r.k)}</td><td class="num ${r.a < 0 ? "pos" : ""}">${money(r.a)}</td></tr>`).join("") || '<tr><td colspan="4" class="empty">אין עסקאות בתקופה הזו</td></tr>'}
+        </tbody></table>
+        ${rows.length > 15 ? `<p class="fine"><button class="link" type="button" data-card-all>${state.cardAll ? "להציג פחות ⌃" : `להציג את כל ${rows.length} העסקאות ›`}</button></p>` : ""}</div>
+        <div class="donut-row"><div class="donut" id="card-donut"></div><ul class="cat-list" id="card-cats"></ul></div>
+      </div>`;
+    const byCat = {};
+    for (const r of rows) byCat[r.k] = (byCat[r.k] ?? 0) + r.a;
+    const cat = categoryItems(byCat, EXPENSE_SLOTS);
+    $("#card-cats").innerHTML = listHTML(cat.list, drawDonut($("#card-donut"), cat.donut, { center: "לפי קטגוריה", size: 170 }));
+  }
+
+  // ההשוואה לחודשים קודמים: כמה הוציאו בכל קטגוריה עד אותו יום בחודש, בממוצע של עד 6 מחזורים קודמים.
+  function baselineFor(sel, person) {
+    const totals = {};
+    let count = 0;
+    if (sel.kind === "cycle") {
+      const idx = CREDIT.cycles.indexOf(sel.cycle);
+      for (const c of CREDIT.cycles.slice(Math.max(0, idx - 6), idx).filter((c) => !c.open)) {
+        count++;
+        for (const r of CREDIT.rows) if (r.y === c.key && r.r && r.p === person && daysBetween(c.start, r.d) < sel.elapsed) totals[r.k] = (totals[r.k] ?? 0) + r.a;
+      }
+    } else {
+      const from = addDays(sel.from, -180);
+      for (const r of CREDIT.rows) if (r.p === person && r.d >= from && r.d < sel.from) totals[r.k] = (totals[r.k] ?? 0) + r.a;
+      for (const k of Object.keys(totals)) totals[k] = (totals[k] / 180) * sel.days;
+      count = 1;
+    }
+    if (!count) return null;
+    for (const k of Object.keys(totals)) totals[k] /= count;
+    return totals;
+  }
+
+  function renderAdvice(sel) {
+    $("#advice").innerHTML = selectedPeople().map((p) => {
+      const own = sel.rows.filter((r) => r.p === p);
+      const cats = {};
+      for (const r of own) cats[r.k] = (cats[r.k] ?? 0) + r.a;
+      const topCats = Object.entries(cats).filter(([, v]) => v > 0).sort((a, b) => b[1] - a[1]).slice(0, 4);
+      const maxCat = topCats.length ? topCats[0][1] : 1;
+      const base = baselineFor(sel, p);
+      const tips = [];
+      if (base) {
+        for (const x of Object.entries(cats).map(([k, v]) => ({ k, v, b: base[k] ?? 0, d: v - (base[k] ?? 0) })).filter((x) => x.d >= 250 && x.d >= x.b * 0.25).sort((a, b) => b.d - a.d).slice(0, 3)) {
+          const merchants = {};
+          for (const r of own.filter((r) => r.k === x.k)) merchants[r.m] = (merchants[r.m] ?? 0) + r.a;
+          const names = Object.entries(merchants).sort((a, b) => b[1] - a[1]).slice(0, 2).map(([m]) => esc(m)).join(", ");
+          tips.push(`<li>📌 <b>${esc(x.k)}</b>: ${money(x.v)}, לעומת ${money(x.b)} בממוצע ${sel.kind === "cycle" ? "עד אותו יום בחודשים קודמים" : "בתקופה באורך דומה"}.${names ? ` בעיקר ${names}.` : ""}</li>`);
+        }
+      }
+      for (const r of own.filter((r) => r.a >= 1500).sort((a, b) => b.a - a.a).slice(0, 2)) tips.push(`<li>🛍️ <b>רכישה גדולה</b>: ${esc(r.m)}, ${money(r.a)} ב־${short(r.d)}.</li>`);
+      if (!tips.length) tips.push("<li>👍 אין קטגוריה שבולטת מעל הממוצע. ההוצאות דומות לחודשים קודמים.</li>");
+      return `<section class="card advice">
+        <div class="card-head"><h2 class="card-title">${swatch(PERSON[p])}${esc(CREDIT.people[p])}: עיקר ההוצאות</h2></div>
+        <ul class="hbars">${topCats.length ? topCats.map(([k, v]) => `<li class="hbar"><span class="hbar-name">${esc(k)}</span><span class="hbar-track"><span class="hbar-fill" style="width:${(v / maxCat) * 100}%;background:${EXPENSE_SLOTS[k] ? `var(--c${EXPENSE_SLOTS[k]})` : "var(--c-other)"}"></span></span><span class="hbar-amt num">${money(v)}</span></li>`).join("") : '<li class="empty">אין הוצאות בתקופה</li>'}</ul>
+        <h3>💡 איפה כדאי לבדוק ולחסוך</h3><ul class="tips">${tips.join("")}</ul></section>`;
+    }).join("");
+  }
+
+  function drawBreakdown(sel) {
+    const chosen = selectedPeople();
+    const rows = sel.rows.filter((r) => chosen.includes(r.p));
+    const byCat = {};
+    for (const r of rows) byCat[r.k] = (byCat[r.k] ?? 0) + r.a;
+    const cat = categoryItems(byCat, EXPENSE_SLOTS);
+    $("#credit-cats").innerHTML = listHTML(cat.list, drawDonut($("#credit-donut"), cat.donut, { center: "לפי קטגוריה" }));
+    const shade = {};
+    const cardItems = CREDIT.cards.map((c, i) => ({ c, i })).filter(({ c }) => chosen.includes(c.person) && c.connected).map(({ c, i }) => {
+      shade[c.person] = (shade[c.person] ?? 0) + 1;
+      return { name: c.label, value: sum(rows.filter((r) => r.c === i).map((r) => r.a)), color: shade[c.person] === 1 ? PERSON[c.person] : PERSON_2[c.person] };
+    }).filter((it) => it.value > 0);
+    $("#cards-list").innerHTML = listHTML(cardItems, drawDonut($("#cards-donut"), cardItems, { center: "לפי כרטיס" }));
+    const byMerchant = {};
+    for (const r of rows) byMerchant[r.m] = (byMerchant[r.m] ?? 0) + r.a;
+    const top = Object.entries(byMerchant).filter(([, v]) => v > 0).sort((a, b) => b[1] - a[1]).slice(0, 10);
+    const max = top.length ? top[0][1] : 1;
+    $("#merchants").innerHTML = top.length ? top.map(([name, value]) => `<li class="hbar"><span class="hbar-name" title="${esc(name)}">${esc(name)}</span><span class="hbar-track"><span class="hbar-fill" style="width:${(value / max) * 100}%;background:${whoColor()}"></span></span><span class="hbar-amt num">${money(value)}</span></li>`).join("") : '<li class="empty">אין עסקאות בתקופה הזו</li>';
+  }
+
+  function drawDaily(sel) {
+    const chosen = selectedPeople();
+    const per = CREDIT.people.map((_, p) => (chosen.includes(p) ? dailyBy(sel, p) : new Array(sel.elapsed).fill(0)));
+    $("#daily-legend").innerHTML = chosen.map((p) => `<span>${swatch(PERSON[p])}${esc(CREDIT.people[p])}</span>`).join("");
+    drawColumns($("#daily-chart"), {
+      groups: Array.from({ length: sel.elapsed }, (_, i) => ({ label: short(addDays(sel.from, i)), values: per.map((d) => d[i]) })),
+      series: CREDIT.people.map((name, p) => ({ name, color: PERSON[p] })), stacked: true, height: 220, maxBar: 18,
+      tipFor: (i) => {
+        const date = addDays(sel.from, i);
+        const top = sel.rows.filter((r) => chosen.includes(r.p) && Math.min(Math.max(daysBetween(sel.from, r.d), 0), sel.elapsed - 1) === i).sort((a, b) => b.a - a.a).slice(0, 4);
+        return `<strong>${weekday(date)} ${short(date)}</strong>${tipRows(chosen.map((p) => [`${swatch(PERSON[p])}${esc(CREDIT.people[p])}`, money(per[p][i])]))}${top.length ? tipRows(top.map((r) => [esc(r.m), money(r.a)])) : ""}`;
+      },
+    });
+  }
+  function dailyMeta(sel) {
+    const chosen = selectedPeople();
+    $("#daily-meta").textContent = `ממוצע ${money(sum(sel.rows.filter((r) => chosen.includes(r.p)).map((r) => r.a)) / Math.max(sel.elapsed, 1))} ליום`;
+  }
+
+  function drawHistory() {
+    const cycles = CREDIT.cycles;
+    $("#history-legend").innerHTML = CREDIT.people.map((n, i) => `<span>${swatch(PERSON[i])}${esc(n)}</span>`).join("") + '<span><i class="key-line budget"></i>יעד משותף</span>';
+    const totals = cycles.map((c) => sum(c.people.map((p) => p.total)));
+    const budgets = cycles.map((c) => sum(c.people.map((p) => p.budget)));
+    const go = (i) => { state.mode = "cycle"; state.cycleIndex = i; renderCredit(); window.scrollTo({ top: 0, behavior: "smooth" }); };
+    drawColumns($("#history-chart"), {
+      groups: cycles.map((c, i) => ({ label: monthOnly(c.key, { month: "short" }) + (i === 0 || c.key.endsWith("-01") ? ` ${c.key.slice(2, 4)}` : ""), values: c.people.map((p) => p.total), faded: c.open })),
+      series: CREDIT.people.map((name, p) => ({ name, color: PERSON[p] })), stacked: true, budgets, selected: state.mode === "cycle" ? state.cycleIndex : -1, onSelect: go,
+      tipFor: (i) => {
+        const c = cycles[i];
+        const rows = c.people.map((p, k) => [`${swatch(PERSON[k])}${esc(p.name)}`, `${money(p.total)} / ${money(p.budget)}`]);
+        rows.push(['סה"כ', `${money(totals[i])} / ${money(budgets[i])}`]);
+        return `<strong>${esc(c.label)}</strong>${tipRows(rows)}`;
+      },
+    });
+    const head = `<thead><tr><th>חודש חיוב</th>${CREDIT.people.map((n) => `<th class="num">${esc(n)}</th>`).join("")}<th class="num">סה"כ</th><th>מול היעד</th><th>מי חרג</th></tr></thead>`;
+    const body = cycles.map((c, i) => ({ c, i })).reverse().map(({ c, i }) => {
+      const diff = totals[i] - budgets[i];
+      const st = c.open ? '<span class="chip">⏳ בתהליך</span>' : c.people.some((p) => p.partial) ? chip("warn", "חלקי") : diff > 0 ? chip("bad", `חריגה ${money(diff)}`) : chip("good", `נשארו ${money(-diff)}`);
+      const over = c.people.filter((p) => p.total > p.budget).map((p) => esc(p.name)).join(", ") || "אף אחד 🎉";
+      return `<tr tabindex="0" data-i="${i}" class="clickable${state.mode === "cycle" && i === state.cycleIndex ? " is-sel" : ""}"><td>${esc(c.label)}</td>${c.people.map((p) => `<td class="num ${p.total > p.budget ? "neg" : ""}">${money(p.total)}</td>`).join("")}<td class="num">${money(totals[i])}</td><td>${st}</td><td>${c.open ? "" : over}</td></tr>`;
+    }).join("");
+    const table = $("#history-table");
+    table.innerHTML = `${head}<tbody>${body}</tbody>`;
+    table.querySelectorAll("tbody tr").forEach((tr) => {
+      tr.addEventListener("click", () => go(Number(tr.dataset.i)));
+      tr.addEventListener("keydown", (ev) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); go(Number(tr.dataset.i)); } });
+    });
+  }
+
+  function drawOpenSections(sel) {
+    if ($('details[data-draw="breakdown"]').open) drawBreakdown(sel);
+    if ($('details[data-draw="daily"]').open) drawDaily(sel);
+    if ($('details[data-draw="history"]').open) drawHistory();
+  }
+
+  function renderCredit() {
+    hideTip();
+    const sel = selection();
+    const people = peopleFor(sel);
+    renderHero(sel);
+    renderBoard(sel, people);
+    drawProgress(sel, people);
+    renderVerdict(sel, people);
+    renderCardStrip(sel);
+    renderAdvice(sel);
+    dailyMeta(sel);
+    drawOpenSections(sel);
+  }
+
+  // ================= בנקים =================
+  function renderBanks() {
+    const l = DATA.liquid;
+    $("#liquid-net").textContent = money(l.net);
+    $("#liquid-split").innerHTML = `<span style="flex:${Math.max(l.cash - l.charges, 0)};background:var(--inc)"></span><span style="flex:${Math.min(l.charges, l.cash)};background:var(--neg)"></span>`;
+    $("#liquid-legend").innerHTML = `<span>${swatch("var(--inc)")}כסף בבנק <b class="num">${money(l.cash)}</b></span><span>${swatch("var(--neg)")}חיובי אשראי קרובים <b class="num">${money(l.charges)}</b></span>`;
+    const conn = Object.fromEntries(DATA.connections.filter((c) => c.status === "ACTIVE").map((c) => [c.provider, c]));
+    const when = (s) => { if (!s) return ""; const d = new Date(s); return `${d.toLocaleDateString("he-IL")} ${d.toLocaleTimeString("he-IL", { hour: "2-digit", minute: "2-digit" })}`; };
+    const current = DATA.cashflow[DATA.cashflow.length - 1];
+    const cards = [...new Set(DATA.accounts.list.map((a) => a.provider))].map((prov) => {
+      const own = DATA.accounts.list.filter((a) => a.provider === prov);
+      const loans = DATA.loans.connected.filter((x) => x.bank === prov);
+      const c = conn[prov];
+      return `<section class="card">
+        <div class="bank-head">${logo(prov, "big")}<span class="row-text"><h2>${esc(BRANDS[prov]?.text ?? prov)}</h2><span class="row-sub">${c ? `עודכן ${when(c.lastFetchedAt)}` : ""}</span></span>${c ? chip("good", "מחובר") : chip("warn", "לא מחובר")}</div>
+        <ul class="acc-lines">
+          ${own.filter((a) => a.type === "CHECKING").map((a) => `<li><span>🏦 ${esc(a.label)}<small>****${a.last4} · נכון ל־${short(a.asOf)}</small></span><b class="num">${money(a.amount)}</b></li>`).join("")}
+          ${own.some((a) => a.type === "SAVINGS") ? '<li class="group">🐷 חסכונות ופיקדונות</li>' : ""}
+          ${own.filter((a) => a.type === "SAVINGS").map((a) => `<li><span>${esc(a.label)}<small>${a.maturity ? `עד ${withYear(a.maturity)}` : "ללא מועד סיום"}</small></span><b class="num">${money(a.amount)}</b></li>`).join("")}
+          ${loans.length ? '<li class="group">🏠 משכנתאות</li>' : ""}
+          ${loans.map((x) => `<li><span>${esc(x.name)}<small>****${x.last4}</small></span><b class="num neg">${money(-x.balance)}</b></li>`).join("")}
+        </ul>
+        <div class="minis" style="margin:14px 0 0"><div class="mini"><span>נכנס ב${esc(current.label)}</span><b class="num pos">${money(current.incomeTotal)}</b></div><div class="mini"><span>יצא</span><b class="num">${money(current.expenseTotal)}</b></div><div class="mini"><span>נשאר</span><b class="num ${current.left >= 0 ? "pos" : "neg"}">${signed(current.left)}</b></div></div>
+        <details class="more" style="margin-top:10px;border-top:1px solid var(--line)"><summary style="padding:12px 0">🧾 תנועות אחרונות בעו"ש</summary>
+          <ul class="txs">${DATA.recent.map((t) => `<li><span class="d">${short(t.date)}</span><span class="t" title="${esc(t.text)}">${esc(t.text)}${t.savings ? " · 🐷" : ""}</span><b class="num ${t.amount >= 0 ? "pos" : ""}">${signed(t.amount)}</b></li>`).join("")}</ul></details>
+      </section>`;
+    });
+    for (const x of DATA.loans.external) cards.push(`<section class="card"><div class="bank-head">${logo(x.bank, "big")}<span class="row-text"><h2>${esc(x.bankName)}</h2><span class="row-sub">לא מחובר ל־Open Finance</span></span>${chip("warn", "לא מחובר")}</div>
+      <ul class="acc-lines"><li><span>🏠 ${esc(x.name)}<small>יתרה</small></span><b class="num">${typeof x.balance === "number" ? money(x.balance) : '<span class="warn">חסר</span>'}</b></li><li><span>החזר חודשי<small>יורד מהעו"ש במזרחי</small></span><b class="num">${money(x.monthly)}</b></li></ul>
+      <div class="cta">🔌 כדי לראות כאן יתרות ותנועות: להוסיף את בנק הפועלים ב־Financy. מהרענון הבא הוא ייכנס לבד.</div></section>`);
+    $("#bank-grid").innerHTML = cards.join("");
+
+    const issuers = [...new Set(CREDIT.cards.map((c) => c.issuer))];
+    $("#issuers-meta").textContent = `${CREDIT.cards.length} כרטיסים`;
+    $("#issuers-table").innerHTML = `<thead><tr><th>חברה</th><th>כרטיסים</th><th>מצב</th><th class="num">חיוב קרוב</th><th>מועד</th></tr></thead><tbody>${issuers.map((iss) => {
+      const own = CREDIT.cards.filter((c) => c.issuer === iss);
+      const next = DATA.charges.items.filter((x) => x.issuer === iss).sort((a, b) => a.date.localeCompare(b.date));
+      const nextDate = next[0]?.date;
+      return `<tr><td>${logo(iss)}</td><td>${own.map((c) => `****${c.last4} ${swatch(PERSON[c.person])}${esc(CREDIT.people[c.person])}`).join("<br>")}</td><td>${conn[iss] ? chip("good", "מחובר") : chip("warn", "לא מחובר")}</td>
+        <td class="num">${nextDate ? money(sum(next.filter((x) => x.date === nextDate).map((x) => x.amount))) : ""}</td><td>${nextDate ? `${weekday(nextDate)} ${short(nextDate)}` : ""}</td></tr>`;
+    }).join("")}</tbody>`;
+
+    const loads = fullMonths.length ? sum(fullMonths.map((x) => x.categories["טעינת כרטיסי הילדים"] ?? 0)) / fullMonths.length : 0;
+    $("#kids").innerHTML = (DATA.kids.length
+      ? `<ul class="acc-lines">${DATA.kids.map((k) => `<li><span>${logo(k.bank, "small")} ${esc(k.name)}</span><b class="num">${typeof k.balance === "number" ? money(k.balance) : '<span class="warn">חסר</span>'}</b></li>`).join("")}</ul>`
+      : '<div class="row-top"><span style="font-size:28px" aria-hidden="true">🧒</span><span class="row-text"><span class="row-name">החשבונות של הילדים עוד לא מחוברים</span><span class="row-sub">כרטיסי MyMax הנטענים שלהם נפלו כשההרשאה של מקס חודשה</span></span></div>') +
+      `<div class="minis" style="margin:14px 0 0"><div class="mini"><span>💸 טעינות לכרטיסי הילדים</span><b class="num">${money(loads)}</b><span>ממוצע לחודש</span></div></div>
+      <div class="cta">🔌 כדי לראות כאן את מצב הילדים: לחבר ב־Financy את החשבונות שלהם ואת כרטיסי MyMax, או לכתוב לי באיזה בנק כל אחד.</div>`;
+
+    const statusChip = { ACTIVE: chip("good", "מחובר"), EXPIRED: chip("bad", "פג תוקף"), CREDENTIALS_ERROR: chip("bad", "שגיאת התחברות"), REVOKED: chip("bad", "בוטל") };
+    $("#conn-table").innerHTML = `<thead><tr><th>מקור</th><th>מצב</th><th>עדכון אחרון</th><th>הרשאה עד</th></tr></thead><tbody>${DATA.connections.map((c) => `<tr><td>${logo(c.provider)}</td><td>${statusChip[c.status] ?? chip("warn", esc(c.status))}</td><td>${when(c.lastFetchedAt)}</td><td>${c.consentUntil ? withYear(c.consentUntil) : ""}</td></tr>`).join("")}</tbody>`;
+  }
+
+  // ================= חיבור האירועים =================
+  function renderUpdated() {
+    const at = new Date(DATA.generatedAt);
+    const time = at.toLocaleTimeString("he-IL", { hour: "2-digit", minute: "2-digit" });
+    const whenText = at.toDateString() === new Date().toDateString() ? `היום ב־${time}` : `${at.toLocaleDateString("he-IL")} ב־${time}`;
+    const stale = Date.now() - at > 24 * 3600 * 1000 ? ' · <span class="stale">הנתונים בני יותר מיממה, כדאי לרענן</span>' : "";
+    $("#updated").innerHTML = `עודכן ${whenText}${stale}`;
+  }
+
+  function goTab(tab) { state.tab = tab; store.set("finance-tab2", tab); history.replaceState(null, "", `#${tab}`); render(); window.scrollTo({ top: 0 }); }
+
+  $("#sum-month").addEventListener("change", (ev) => { state.month = ev.target.value; renderSummary(); });
+  $("#glance").addEventListener("click", (ev) => {
+    const b = ev.target.closest(".g-tile");
+    if (!b) return;
+    state.open = state.open === b.dataset.key ? null : b.dataset.key;
+    renderSummary();
+    if (state.open) $("#glance-detail").scrollIntoView({ behavior: "smooth", block: "nearest" });
+  });
+  $("#glance-detail").addEventListener("click", (ev) => {
+    if (ev.target.closest("[data-close]")) { state.open = null; renderSummary(); }
+    const g = ev.target.closest("[data-goto]");
+    if (g) goTab(g.dataset.goto);
+    const gc = ev.target.closest("[data-goto-card]");
+    if (gc) { state.mode = "cycle"; state.cycleIndex = CREDIT.cycles.length - 1; state.card = Number(gc.dataset.gotoCard); state.cardAll = false; goTab("credit"); setTimeout(() => $("#card-detail").scrollIntoView({ behavior: "smooth", block: "start" }), 50); }
+  });
+  $("#card-strip").addEventListener("click", (ev) => {
+    const b = ev.target.closest("[data-card]");
+    if (!b) return;
+    const i = Number(b.dataset.card);
+    state.card = state.card === i ? null : i;
+    state.cardAll = false;
+    renderCardStrip(selection());
+    if (state.card !== null) $("#card-detail").scrollIntoView({ behavior: "smooth", block: "nearest" });
+  });
+  $("#card-detail").addEventListener("click", (ev) => {
+    if (ev.target.closest("[data-close-card]")) { state.card = null; renderCardStrip(selection()); }
+    if (ev.target.closest("[data-card-all]")) { state.cardAll = !state.cardAll; renderCardDetail(selection()); }
+  });
+  $("#month-tabs").addEventListener("click", (ev) => { const b = ev.target.closest("[data-i]"); if (!b) return; state.mode = "cycle"; state.cycleIndex = Number(b.dataset.i); renderCredit(); });
+  $("#who").addEventListener("click", (ev) => { const b = ev.target.closest("[data-who]"); if (!b) return; state.who = b.dataset.who; store.set("finance-who", state.who); renderCredit(); });
+  $("#dates-toggle").addEventListener("click", () => { state.mode = state.mode === "custom" ? "cycle" : "custom"; if (state.mode === "cycle") state.cycleIndex = CREDIT.cycles.length - 1; renderCredit(); });
+  $("#back-to-cycle").addEventListener("click", () => { state.mode = "cycle"; state.cycleIndex = CREDIT.cycles.length - 1; renderCredit(); });
+  for (const id of ["date-from", "date-to"]) {
+    $(`#${id}`).addEventListener("change", () => {
+      state.from = $("#date-from").value || null;
+      state.to = $("#date-to").value || null;
+      if (state.from) store.set("finance-from", state.from);
+      if (state.to) store.set("finance-to", state.to);
+      renderCredit();
+    });
+  }
+  document.querySelectorAll("details[data-draw]").forEach((d) => d.addEventListener("toggle", () => {
+    if (!d.open) return;
+    if (d.dataset.draw === "flow") drawFlow();
+    else drawOpenSections(selection());
+  }));
+  $("#tabs").addEventListener("click", (ev) => { const b = ev.target.closest("[data-tab]"); if (b && b.dataset.tab !== state.tab) goTab(b.dataset.tab); });
+  const toggle = $("#demo-toggle");
+  toggle.addEventListener("click", () => { state.demo = !state.demo; store.set("finance-demo", state.demo ? "1" : "0"); render(); });
+
+  function render() {
+    hideTip();
+    toggle.setAttribute("aria-pressed", String(state.demo));
+    toggle.querySelector(".label").textContent = state.demo ? "מצב הדגמה פעיל" : "מצב הדגמה";
+    document.querySelectorAll("#tabs button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.tab === state.tab)));
+    for (const t of TABS) $(`#view-${t}`).hidden = state.tab !== t;
+    renderUpdated();
+    if (state.tab === "summary") renderSummary();
+    if (state.tab === "credit") renderCredit();
+    if (state.tab === "banks") renderBanks();
+  }
+
+  let resizeTimer;
+  addEventListener("resize", () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(render, 150); });
+  render();
+
+  // באתר הנתונים נשארים רק בזיכרון של הדף. "נעילה", או יותר מ־2 דקות ברקע, טוענים את הדף מחדש
+  // וחוזרים למסך הסיסמה. כך גם חזרה לאפליקציה מהמסך הראשי של הטלפון מבקשת סיסמה.
+  if (site) {
+    const lock = () => location.reload();
+    const lockNow = $("#lock-now");
+    lockNow.hidden = false;
+    lockNow.addEventListener("click", lock);
+    let hiddenAt = 0;
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden) hiddenAt = Date.now();
+      else if (hiddenAt && Date.now() - hiddenAt > 2 * 60 * 1000) lock();
+    });
+    addEventListener("pageshow", (ev) => { if (ev.persisted) lock(); });
+  }
+}
+
+// ===================== פתיחת הנתונים =====================
+// באתר הנתונים מגיעים מוצפנים (AES-GCM עם מפתח שנגזר מהסיסמה ב־PBKDF2), ומפוענחים רק כאן, במכשיר.
+// הסיסמה נדרשת בכל כניסה: המפתח לא נשמר בשום מקום.
+const b64 = (s) => Uint8Array.from(atob(s), (c) => c.charCodeAt(0));
+
+// מוחק מפתחות שנשמרו בגרסה קודמת של האתר, שבה אפשר היה "לזכור את המכשיר".
+function forgetSavedKeys() {
+  try { indexedDB.deleteDatabase("kesef"); } catch (e) {}
+}
+
+async function deriveKey(pass, payload) {
+  const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(pass.normalize("NFC")), "PBKDF2", false, ["deriveKey"]);
+  return crypto.subtle.deriveKey({ name: "PBKDF2", salt: b64(payload.salt), iterations: payload.iter, hash: "SHA-256" }, base, { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
+}
+
+async function decryptData(key, payload) {
+  const plain = await crypto.subtle.decrypt({ name: "AES-GCM", iv: b64(payload.iv) }, key, b64(payload.ct));
+  const text = await new Response(new Blob([plain]).stream().pipeThrough(new DecompressionStream("gzip"))).text();
+  return JSON.parse(text);
+}
+
+(async function boot() {
+  const embedded = JSON.parse(document.getElementById("dashboard-data").textContent);
+  if (embedded) return startApp(embedded, false);
+
+  const err = document.getElementById("lock-err");
+  document.getElementById("lock").hidden = false;
+  let payload;
+  try {
+    const res = await fetch(`data.enc.json?t=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) throw new Error(String(res.status));
+    payload = await res.json();
+  } catch (e) {
+    err.textContent = "לא הצלחתי לטעון את הנתונים. כדאי לבדוק את החיבור לאינטרנט.";
+    return;
+  }
+
+  forgetSavedKeys();
+  const form = document.getElementById("lock-form");
+  const pass = document.getElementById("lock-pass");
+  const button = document.getElementById("lock-open");
+  pass.focus();
+  form.addEventListener("submit", async (ev) => {
+    ev.preventDefault();
+    button.disabled = true;
+    button.textContent = "פותח…";
+    err.textContent = "";
+    try {
+      const key = await deriveKey(pass.value, payload);
+      const data = await decryptData(key, payload);
+      pass.value = "";
+      startApp(data, true);
+    } catch (e) {
+      err.textContent = "הסיסמה לא נכונה";
+      button.disabled = false;
+      button.textContent = "🔓 פתיחה";
+      pass.select();
+    }
+  });
+})();
+</script>
+</body>
+</html>
